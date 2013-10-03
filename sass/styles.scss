@@ -19,6 +19,12 @@
 @import "components/misc";
 // Optionally, add your own components here.
 @import "print";
+@import "components/header";
+@import "components/navigation";
+@import "components/page";
+@import "components/islandora";
+@import "components/views";
+@import "components/footer";
 
 /* SMACSS theme rules */
 /* @import "theme-A"; */
