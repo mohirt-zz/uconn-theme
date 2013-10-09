@@ -28,50 +28,34 @@
 	"buffers":
 	[
 		{
-			"file": "sass/_header.scss",
+			"file": "sass/design/_header.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 776,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_navigation.scss",
+			"file": "sass/design/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 119,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_page.scss",
+			"file": "sass/design/_page.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 424,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_islandora.scss",
+			"file": "sass/design/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_views.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 393,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,10 +68,34 @@
 			}
 		},
 		{
+			"file": "sass/design/_views.scss",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/design/_islandora.scss",
+			"settings":
+			{
+				"buffer_size": 596,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "template.php",
 			"settings":
 			{
-				"buffer_size": 4488,
+				"buffer_size": 4810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 3865,
 				"line_ending": "Unix"
 			}
 		}
@@ -124,6 +132,15 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/uconn_theme.info",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_header.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/styles.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_navigation.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_page.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_islandora.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_views.scss",
+		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_footer.scss",
 		"/Volumes/Connecticut Vagrant/all/themes/uconn_theme/sass/_content.scss",
 		"/Volumes/Connecticut Vagrant/all/themes/uconn_theme/sass/styles.scss",
 		"/Volumes/Connecticut Vagrant/all/themes/uconn_theme/sass/_sub-header.scss",
@@ -262,28 +279,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/_header.scss",
+					"file": "sass/design/_header.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -293,18 +311,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "sass/_navigation.scss",
+					"file": "sass/design/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								101,
+								101
 							]
 						],
 						"settings":
@@ -319,18 +337,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "sass/_page.scss",
+					"file": "sass/design/_page.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								421,
+								421
 							]
 						],
 						"settings":
@@ -345,18 +363,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sass/_islandora.scss",
+					"file": "sass/design/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								272,
+								272
 							]
 						],
 						"settings":
@@ -371,58 +389,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "sass/_views.scss",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/_footer.scss",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
@@ -450,19 +416,71 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "template.php",
+					"buffer": 5,
+					"file": "sass/design/_views.scss",
 					"settings":
 					{
-						"buffer_size": 4488,
+						"buffer_size": 66,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/design/_islandora.scss",
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "template.php",
+					"settings":
+					{
+						"buffer_size": 4810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4509,
+								4509
 							]
 						],
 						"settings":
@@ -472,7 +490,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/page.tpl.php",
+					"settings":
+					{
+						"buffer_size": 3865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

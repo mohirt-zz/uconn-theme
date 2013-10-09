@@ -18,7 +18,16 @@ Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
     // Place your code here.
+    
+	//Search box text	
+	$(window).load(function() {
+		$("#edit-islandora-simple-search-query").val("Search this repository");
 
+		  $("#edit-islandora-simple-search-query").focus(function() {
+	      $(this).val("");
+		  });
+	   
+	});
   }
 };
 

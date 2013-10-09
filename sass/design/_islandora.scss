@@ -1,0 +1,119 @@
+////////////////////////
+// Islandora Module Styling
+////////////////////////
+
+// Simple Search //
+#block-islandora-solr-simple {
+	max-width: 450px;
+	border: 1px solid #E0E0E0;
+	border-radius: 8px;
+	padding: 5px;
+
+	h2 {
+		border-bottom: 1px solid #E0E0E0;
+		font-weight: normal;
+		font-size: 80%;
+		padding: 4px 8px 8px;
+	}
+
+	#edit-simple {
+		padding: 10px 10px 0;
+	}
+	.form-text {
+		width: 80%;
+		height: 50px;
+		color: #D7D7D7;
+		border: 1px solid #E0E0E0;
+		padding-left: 0.5em;
+	}
+	.adv_search {
+		font-size: 75%;
+		margin: 5px 0 0 5px;	
+		display: inline-block;
+		letter-spacing: 0.3pt;
+	}
+}
+
+#block-islandora-solr-display-switch {
+  float: right;
+  position: relative;
+  top: -58px;
+  left: -20px;
+  opacity: 0.5;
+}
+
+.block-islandora-solr ul {
+  margin: 0.5em 0 0;
+  padding: 0 !important;
+}
+
+#block-islandora-solr-display-switch ul li {
+  float: left;
+}
+
+.block-islandora-solr ul li {
+  border-bottom: 1px solid #EEF0ED;
+  list-style: none outside none;
+}
+
+.islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table {
+  background: url("../images/display-grid-list.png") no-repeat scroll left top transparent;
+  display: inline-block;
+  height: 22px;
+  outline: medium none;
+  text-indent: -9999px;
+  width: 25px;
+}
+
+.islandora-solr-display a.display-grid {
+  background: url("../images/display-grid.png") no-repeat scroll left top transparent;
+}
+
+.islandora-solr-display a.display-table {
+  background: url("../images/display-list.png") no-repeat scroll left top transparent;
+}
+
+.islandora-solr-search-result {
+	border-radius: 18px;
+
+	.solr-thumb {
+		float: right;	
+		img {
+			border: 0;
+			padding-top: 10px;
+		}
+	}
+	.solr-fields {
+		.solr-value {
+			padding-bottom: 0;
+			padding-left: 0;
+		}
+		.dc-title {
+			color: #888;
+			font-size: 105%;
+			padding-top: 10px;
+		}
+		.fgs-ownerid-t {
+			font-size: 75%;
+			color: #777;
+			padding-top: 0;
+		}
+	}
+
+	.solr-label {
+		display: none;
+	}
+
+	.solr-fields, .solr-fields dt, .solr-fields dd {
+		border: 0;
+	}
+
+}
+
+.islandora-solr-search-result.odd {
+	background: #CCC;
+	
+}
+.islandora-solr-search-result.even {
+	border: 1px solid #CCC;	
+}
