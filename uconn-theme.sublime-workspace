@@ -31,7 +31,7 @@
 			"file": "sass/design/_header.scss",
 			"settings":
 			{
-				"buffer_size": 776,
+				"buffer_size": 1125,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/design/_page.scss",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 608,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/design/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 442,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 5238,
+				"buffer_size": 5348,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "sass/design/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 596,
+				"buffer_size": 3734,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +279,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -287,15 +287,15 @@
 					"file": "sass/design/_header.scss",
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 1125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								643,
+								643
 							]
 						],
 						"settings":
@@ -304,7 +304,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -340,23 +340,24 @@
 					"file": "sass/design/_page.scss",
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								421,
-								421
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 183.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -366,20 +367,21 @@
 					"file": "sass/design/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 442,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
+								379,
+								379
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -392,7 +394,7 @@
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 5238,
+						"buffer_size": 5348,
 						"regions":
 						{
 						},
@@ -410,7 +412,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 43.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -446,23 +448,24 @@
 					"file": "sass/design/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 596,
+						"buffer_size": 3734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								432
+								3734,
+								3734
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3220.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
