@@ -4,6 +4,8 @@
 
 // Simple Search //
 #block-islandora-solr-simple {
+	width: 40%;
+	float: left;
 	max-width: 450px;
 	border: 1px solid #E0E0E0;
 	border-radius: 8px;
@@ -19,8 +21,19 @@
 	#edit-simple {
 		padding: 10px 10px 0;
 	}
+	.form-submit {
+		height: 45px;
+		width: 27%; 
+		background: #777;
+		color: #fff;
+		border-radius: 10px;
+		border: 0;
+		text-transform: capitalize;
+		letter-spacing: 0.3pt;
+		margin-left: 1em;
+	}
 	.form-text {
-		width: 80%;
+		width: 65%;
 		height: 50px;
 		color: #D7D7D7;
 		border: 1px solid #E0E0E0;
@@ -131,6 +144,7 @@
 	.islandora-basic-collection-object {
 		background: #CCC;
 		border-radius: 18px;
+		padding: 0.5em 1em;
 	}
 
 	.islandora-basic-collection-thumb {
@@ -151,6 +165,21 @@
 .islandora-basic-collection-list-item {
 	float: left;
 	text-align: right;
+
+	dl {
+		margin: 0 1.5em;
+	}
+	dt {
+		float: right !important;
+		margin: 0;
+		max-width: 85%;
+	}
+	dd {
+		text-align: left;
+		margin: 0 !important;
+		max-width: 85%;
+	}
+
 	img {
 		float: right;
 	}
@@ -205,4 +234,12 @@
 
 #islandora-solr-result-count {
 	font-size: 115%;
+}
+
+// Accordion Rotator //
+
+#block-accordion-rotator-accordion-rotator {
+	float: right;
+	width: 55%;
+	margin-right: 1em;
 }
