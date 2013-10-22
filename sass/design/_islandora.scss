@@ -6,6 +6,7 @@
 #block-islandora-solr-simple {
 	width: 40%;
 	float: left;
+	clear: left;
 	max-width: 450px;
 	border: 1px solid #E0E0E0;
 	border-radius: 8px;
@@ -15,7 +16,8 @@
 		border-bottom: 1px solid #E0E0E0;
 		font-weight: normal;
 		font-size: 80%;
-		padding: 4px 8px 8px;
+		padding: 4px 13px 8px;
+		margin: 0 -5px;
 	}
 
 	#edit-simple {
@@ -85,6 +87,16 @@
 	.islandora-solr-query-list {
 		color: #777;
 		font-size: 85%;
+	}
+}
+#block-islandora-solr-sort {
+	@extend #block-islandora-solr-basic-facets;
+	.islandora-solr-query-list {
+		color: #777;
+		font-size: 85%;
+	}
+	h2 {
+		@extend h3;
 	}
 }
 

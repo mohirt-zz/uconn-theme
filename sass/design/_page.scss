@@ -46,3 +46,7 @@ ul.pager {
 		vertical-align: middle;
 	}
 }
+.tabs-primary, .tabs-secondary {
+	position: relative;
+	z-index: 50;
+}

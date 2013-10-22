@@ -137,3 +137,63 @@ function uconn_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form
   );
   $form['simple']['advanced_link'] = $link;
 }
+
+// Book reader meta styling and detailing //
+function uconn_theme_islandora_internet_archive_bookreader_book_info(&$vars) {
+  $object = $vars['object'];
+  $rows = array();
+ 
+  $to_string = function($o) {
+        return (string) $o;
+      };
+ 
+  if (isset($object['MODS']) && islandora_datastream_access(FEDORA_VIEW_OBJECTS, $object['MODS'])) {
+    $xml = simplexml_load_string($object['MODS']->content);
+    $xml->registerXPathNamespace('mods', 'http://www.loc.gov/mods/v3');
+ 
+    $fields = array(
+      array('Title', '/mods:mods/mods:titleInfo/mods:title[1]'),
+      array('Creator', '/mods:mods/mods:name[@type="personal"]/mods:namePart'),
+      array('Role', '/mods:mods/mods:name[@type="personal"]/mods:role/mods:roleTerm'),
+      array('Date', '/mods:mods/mods:originInfo/mods:dateIssued[1]'),
+      array('Description', '/mods:mods/mods:abstract'),
+      array('Link', '/mods:mods/mods:identifier[@type="hdl"]'),
+      array('Identifier', '/mods:mods/mods:identifier[@type="local"]'),
+      array('Genre', '/mods:mods/mods:genre'),
+      array('Topic', '/mods:mods/mods:subject/mods:topic'),
+      array('Geographic', '/mods:mods/mods:subject/mods:geographic'),
+      array('Temporal', '/mods:mods/mods:subject/mods:temporal'),
+      array('Citation', '/mods:mods/mods:note[@type="Preferred Citation"]'),
+    );
+  
+    foreach ($fields as $field => $columns) {
+      $xpath = (isset($columns[1]) ? $columns[1] : '');
+      $values = array();
+      if ($xpath) {
+        $values = $xml->xpath($xpath);
+        if (count($values) > 0) {
+          $values = array_map($to_string, $values);
+          $rows[] = array(array(
+              'class' => array('metadata-field'),
+              'data' => $columns[0]
+            ), array(
+              'class' => array('metadata-value'),
+              'data' => implode('; ', $values)
+              ));
+        }
+      }
+    }
+  }
+ 
+  $content = theme('table', array(
+    'caption' => '',
+    'empty' => t('No Information specified.'),
+    'attributes' => array(),
+    'colgroups' => array(),
+    'header' => array(t('Field'), t('Values')),
+    'rows' => $rows,
+    'sticky' => FALSE));
+ 
+ 
+  return $content;
+}
