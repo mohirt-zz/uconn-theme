@@ -213,3 +213,29 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+
+// UCONN Media Queries //
+
+@media all and (max-width: 480px) {
+  #university-of-connecticut, .header__logo-image {
+    display: none;
+  }
+  #site-name {
+    font-size: 107% !important;
+  }
+  #block-block-4, #block-islandora-solr-simple {
+    width: 100% !important;
+  }
+  #block-accordion-rotator-accordion-rotator {
+    width: 92.3% !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+
+  #name-and-slogan {
+    padding-left: 10px !important;
+    font-size: 90%;
+  }
+
+}

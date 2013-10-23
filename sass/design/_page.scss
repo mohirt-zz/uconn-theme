@@ -50,3 +50,46 @@ ul.pager {
 	position: relative;
 	z-index: 50;
 }
+
+// IA BOOK VIEWER //
+
+#book-viewer {
+	#BRtoolbar {
+		background: #EEE;
+	}
+	#BRpageview, #BRcontainer {
+		background: #CCC;
+	}	
+	#BRnav {
+		background: #EEE;
+	}
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  max-width: 100%;
+  height: 100% !important;
+}
+
+#cboxWrapper {
+	max-width: 100%;
+	height: 100% !important;
+	#cboxContent {
+		#cboxLoadedContent {
+			max-width: 100%;
+		}
+		max-width: 95%;
+		border-color: #000E2F;
+		padding: 0.5em;
+	}
+
+	.BRfloatHead {
+		background: #000E2F;	
+		padding: 20px 10px;
+	}
+	.floatShut {
+		margin: 18px 10px;
+	}
+	table {
+		margin: 0.5em;
+	}
+}
