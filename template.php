@@ -242,10 +242,57 @@ function uconn_theme_preprocess_islandora_basic_collection_wrapper(&$variables) 
   try {
     $dc = $islandora_object['DC']->content;
     $dc_object = DublinCore::importFromXMLString($dc);
+    if ($islandora_object['MODS']) {
+      $mods_dom_doc = new DOMDocument();
+      $mods_dom_doc->loadXML($islandora_object['MODS']->content);
+      $mods_xpather = new DOMXPath($mods_dom_doc);
+    }
   }
   catch (Exception $e) {
     drupal_set_message(t('Error retrieving object %s %t', array('%s' => $islandora_object->id, '%t' => $e->getMessage())), 'error', FALSE);
   }
+
+  $variables['metadata'] = array();
+  if ($islandora_object['MODS']) {
+
+    $title_results = $mods_xpather->query("//*[local-name() = 'title']/text()");
+    if (isset($title_results->item(0)->textContent)) {
+      $variables['metadata'][t('Title: ')] = $title_results->item(0)->textContent;
+    }
+
+    $creator_results = $mods_xpather->query("//*[local-name() = 'name' and @type = 'personal']/*[local-name() = 'namePart']/text()");
+    if (isset($creator_results->item(0)->textContent)) {
+      $variables['metadata'][t('Creator: ')] = $creator_results->item(0)->textContent;
+    }
+
+    $issued_start_results = $mods_xpather->query("//*[local-name() = 'dateIssued' and @point = 'start']/text()");
+    $issued_end_results = $mods_xpather->query("//*[local-name() = 'dateIssued' and @point = 'end']/text()");
+    if (isset($issued_start_results->item(0)->textContent) && isset($issued_end_results->item(0)->textContent)) {
+      $variables['metadata'][t('Date: ')] = $issued_start_results->item(0)->textContent
+        . '-' . $issued_start_results->item(0)->textContent;
+    }
+
+    $size_results = $mods_xpather->query("//*[local-name() = 'extent']/text()");
+    if (isset($size_results->item(0)->textContent)) {
+      $variables['metadata'][t('Size: ')] = $size_results->item(0)->textContent;
+    }
+
+    $abstract_results = $mods_xpather->query("//*[local-name() = 'abstract']/text()");
+    if (isset($abstract_results->item(0)->textContent)) {
+      $variables['metadata'][t('Description: ')] = substr($abstract_results->item(0)->textContent, 0, 150);
+    }
+
+    $identifier_results = $mods_xpather->query("//*[local-name() = 'identifier' and @type = 'local']/text()");
+    if (isset($identifier_results->item(0)->textContent)) {
+      $variables['metadata'][t('Identifier: ')] = $identifier_results->item(0)->textContent;
+    }
+
+    $link_results = $mods_xpather->query("//*[local-name() = 'identifier' and @type = 'URL']/text()");
+    if (isset($link_results->item(0)->textContent)) {
+      $variables['metadata'][t('Permalink: ')] = $link_results->item(0)->textContent;
+    }
+  }
+
   $variables['islandora_dublin_core'] = isset($dc_object) ? $dc_object : NULL;
   $variables['dc_array'] = isset($dc_object) ? $dc_object->asArray() : array();
   $variables['islandora_object_label'] = $islandora_object->label;

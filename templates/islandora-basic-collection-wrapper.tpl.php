@@ -22,6 +22,14 @@
         <?php endforeach ?>
       </ul>
     </span>
+    <div class="islandora-basic-collection-wrapper-metadata">
+      <?php foreach ($metadata as $metadatum_label => $metadatum): ?>
+        <div class="islandora-basic-collection-wrapper-metadatum">
+          <span><?php print $metadatum_label; ?></span>
+          <span><?php print $metadatum; ?></span>
+        </div>
+      <?php endforeach ?>
+    </div>
     <?php print $collection_pager; ?>
     <?php print $collection_content; ?>
     <?php print $collection_pager; ?>
