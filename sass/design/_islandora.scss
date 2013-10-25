@@ -267,3 +267,21 @@
 	width: 55%;
 	margin-right: 1em;
 }
+
+// //
+.dwn_btn {
+	background: none repeat scroll 0 0 #777777;
+	border: 0 none;
+	border-radius: 10px 10px 10px 10px;
+	color: #FFF !important;
+	height: 45px;
+	letter-spacing: 0.3pt;
+	margin-left: 1em;
+	text-transform: capitalize;
+	padding: 10px;
+	position: relative;
+	top: 25px;
+}
+.dwn_btn:hover {
+	color: #121738 !important;
+}

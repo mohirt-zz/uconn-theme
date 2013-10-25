@@ -906,7 +906,7 @@ table {
 
   /* line 223, ../sass/layouts/_responsive.scss */
   #site-name {
-    font-size: 107% !important;
+    font-size: 98% !important;
   }
 
   /* line 226, ../sass/layouts/_responsive.scss */
@@ -923,7 +923,17 @@ table {
   /* line 236, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
-    font-size: 90%;
+  }
+
+  /* line 239, ../sass/layouts/_responsive.scss */
+  #site-name {
+    font-size: 95%;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 246, ../sass/layouts/_responsive.scss */
+  #site-name {
+    font-size: 115%;
   }
 }
 /* Component (SMACSS module) rules */
@@ -2099,29 +2109,28 @@ tr.selected td {
 }
 /* line 187, ../sass/design/_header.scss */
 #name-and-slogan #site-name {
-  font-size: 115%;
   font-weight: normal;
 }
-/* line 190, ../sass/design/_header.scss */
+/* line 189, ../sass/design/_header.scss */
 #name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
   color: #14105E;
 }
 
-/* line 197, ../sass/design/_header.scss */
+/* line 196, ../sass/design/_header.scss */
 .header__logo {
   float: right;
   margin-top: 2.25em;
 }
 
-/* line 203, ../sass/design/_header.scss */
+/* line 202, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
   padding-left: 25px;
 }
-/* line 205, ../sass/design/_header.scss */
+/* line 204, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .adv_search {
   display: none;
 }
-/* line 208, ../sass/design/_header.scss */
+/* line 207, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-text {
   width: 12em;
   border: 1px solid #e0e0e0;
@@ -2130,7 +2139,7 @@ tr.selected td {
   border-radius: 3px;
   color: #D7D7D7;
 }
-/* line 216, ../sass/design/_header.scss */
+/* line 215, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-submit {
   background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
   width: 35px;
@@ -2558,6 +2567,26 @@ ul.pager li {
   float: right;
   width: 55%;
   margin-right: 1em;
+}
+
+/* line 272, ../sass/design/_islandora.scss */
+.dwn_btn {
+  background: none repeat scroll 0 0 #777777;
+  border: 0 none;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  height: 45px;
+  letter-spacing: 0.3pt;
+  margin-left: 1em;
+  text-transform: capitalize;
+  padding: 10px;
+  position: relative;
+  top: 25px;
+}
+
+/* line 285, ../sass/design/_islandora.scss */
+.dwn_btn:hover {
+  color: #121738 !important;
 }
 
 /* line 5, ../sass/design/_footer.scss */

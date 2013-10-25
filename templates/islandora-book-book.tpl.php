@@ -9,5 +9,5 @@
     <?php print $viewer; ?>
   </div>
 <?php endif; ?>
-<a href="<?php print url("islandora/object/{$object}/datastream/PDF/download"); ?>">Download</a>
+<a class="dwn_btn" href="<?php print url("islandora/object/{$object}/datastream/PDF/download"); ?>">Download</a>
 <!-- @todo Add table of metadata values -->
