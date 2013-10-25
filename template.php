@@ -223,7 +223,7 @@ function uconn_theme_preprocess_islandora_solr(&$variables) {
       $variables['results'][$key]['solr_doc'][theme_get_setting('uconn_theme_mods_solr_field')]['value'] = substr(
         $result['solr_doc'][theme_get_setting('uconn_theme_mods_solr_field')]['value'],
         0,
-        5
+        150
       );
     }
     // End customization trim of abstract.
