@@ -142,15 +142,15 @@ function uconn_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form
 function uconn_theme_islandora_internet_archive_bookreader_book_info(&$vars) {
   $object = $vars['object'];
   $rows = array();
- 
+
   $to_string = function($o) {
         return (string) $o;
       };
- 
+
   if (isset($object['MODS']) && islandora_datastream_access(FEDORA_VIEW_OBJECTS, $object['MODS'])) {
     $xml = simplexml_load_string($object['MODS']->content);
     $xml->registerXPathNamespace('mods', 'http://www.loc.gov/mods/v3');
- 
+
     $fields = array(
       array('Title', '/mods:mods/mods:titleInfo/mods:title[1]'),
       array('Creator', '/mods:mods/mods:name[@type="personal"]/mods:namePart'),
@@ -165,7 +165,7 @@ function uconn_theme_islandora_internet_archive_bookreader_book_info(&$vars) {
       array('Temporal', '/mods:mods/mods:subject/mods:temporal'),
       array('Citation', '/mods:mods/mods:note[@type="Preferred Citation"]'),
     );
-  
+
     foreach ($fields as $field => $columns) {
       $xpath = (isset($columns[1]) ? $columns[1] : '');
       $values = array();
@@ -184,7 +184,7 @@ function uconn_theme_islandora_internet_archive_bookreader_book_info(&$vars) {
       }
     }
   }
- 
+
   $content = theme('table', array(
     'caption' => '',
     'empty' => t('No Information specified.'),
@@ -193,7 +193,42 @@ function uconn_theme_islandora_internet_archive_bookreader_book_info(&$vars) {
     'header' => array(t('Field'), t('Values')),
     'rows' => $rows,
     'sticky' => FALSE));
- 
- 
+
+
   return $content;
+}
+
+/**
+ * Prepares variables for islandora_solr templates.
+ */
+function uconn_theme_preprocess_islandora_solr(&$variables) {
+  $results = $variables['results'];
+  foreach ($results as $key => $result) {
+    // Thumbnail.
+    $path = url($result['thumbnail_url'], array('query' => $result['thumbnail_url_params']));
+    $image = theme('image', array('path' => $path));
+
+    $options = array('html' => TRUE);
+    if (isset($result['object_label'])) {
+      $options['attributes']['title'] = $result['object_label'];
+    }
+    if (isset($result['object_url_params'])) {
+      $options['query'] = $result['object_url_params'];
+    }
+    if (isset($result['object_url_fragment'])) {
+      $options['fragment'] = $result['object_url_fragment'];
+    }
+    // Customization trim of abstract.
+    if (isset($result['solr_doc'][theme_get_setting('uconn_theme_mods_solr_field')]['value'])) {
+      $variables['results'][$key]['solr_doc'][theme_get_setting('uconn_theme_mods_solr_field')]['value'] = substr(
+        $result['solr_doc'][theme_get_setting('uconn_theme_mods_solr_field')]['value'],
+        0,
+        5
+      );
+    }
+    // End customization trim of abstract.
+    // Thumbnail link.
+    $variables['results'][$key]['thumbnail'] = l($image, $result['object_url'], $options);
+  }
+  dsm($variables);
 }
