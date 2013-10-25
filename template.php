@@ -230,5 +230,4 @@ function uconn_theme_preprocess_islandora_solr(&$variables) {
     // Thumbnail link.
     $variables['results'][$key]['thumbnail'] = l($image, $result['object_url'], $options);
   }
-  dsm($variables);
 }
