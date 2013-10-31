@@ -64,9 +64,8 @@ $zen-auto-include-item-base: false;
   }
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: $nav-height;
+
+    height: 0;
     width: $zen-grid-width;
   }
 }
