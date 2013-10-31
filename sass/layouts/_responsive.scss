@@ -221,9 +221,9 @@ $zen-auto-include-item-base: false;
     display: none;
   }
   #site-name {
-    font-size: 107% !important;
+    font-size: 98% !important;
   }
-  #block-block-4, #block-islandora-solr-simple {
+  #block-block-2, #block-islandora-solr-simple {
     width: 100% !important;
   }
   #block-accordion-rotator-accordion-rotator {
@@ -235,7 +235,15 @@ $zen-auto-include-item-base: false;
 
   #name-and-slogan {
     padding-left: 10px !important;
-    font-size: 90%;
+  }
+  #site-name {
+    font-size: 95%;
   }
 
+}
+
+@media all and (min-width: 768px) {
+  #site-name {
+     font-size: 115%;
+  }
 }

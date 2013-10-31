@@ -292,7 +292,7 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  border: 1px solid #666;
+  border: 1px solid #666666;
   padding-bottom: -1px;
   margin: 1.5em 0;
 }
@@ -906,11 +906,11 @@ table {
 
   /* line 223, ../sass/layouts/_responsive.scss */
   #site-name {
-    font-size: 107% !important;
+    font-size: 98% !important;
   }
 
   /* line 226, ../sass/layouts/_responsive.scss */
-  #block-block-4, #block-islandora-solr-simple {
+  #block-block-2, #block-islandora-solr-simple {
     width: 100% !important;
   }
 
@@ -923,7 +923,17 @@ table {
   /* line 236, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
-    font-size: 90%;
+  }
+
+  /* line 239, ../sass/layouts/_responsive.scss */
+  #site-name {
+    font-size: 95%;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 246, ../sass/layouts/_responsive.scss */
+  #site-name {
+    font-size: 115%;
   }
 }
 /* Component (SMACSS module) rules */
@@ -948,7 +958,7 @@ table {
 .with-wireframes .region-sidebar-second,
 .with-wireframes #footer,
 .with-wireframes .region-bottom {
-  outline: 1px solid #ccc;
+  outline: 1px solid #cccccc;
 }
 
 /**
@@ -1126,7 +1136,7 @@ table {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAD6UlEQVR42s2WX0xbVRzH3YwmC4k+GF/0ZS/S267/bmnX9nL7bwstZlnbjTDYyoC5GCbB0ZW5pdJCe6swbLFA6bpWIGuRMWVjKGP+21QW3SZBSAjGh4XEaTZTH82Cm/3ztS2xs7mw4KLRk3xyzj33/H6fe5Pz7zEA/yr/vUDukj9FH6drqTaqT8EoPs/UV+nX6TD1BlUh9AqLHlmgPKLcRHmoCOWmElK/FOKTYpS8UwLJkASiUyLI3pKhlClN0g46qj+qL/pbArlbrlO1q25JeiSgR2iYJ8ywXLSg/qP6LNl2ro8+Q4MMkKCd9K2t3q3KdQnkXXIF5aISkgEJzONm1F2qW52pDJN1MI2bUBIuAdVOJWSMTPNQgX6/vkjVpvpREpag6oMqWCYta1IzbsHh9ga0RJtzY8URMdRO9U/KSuWmNQUqh2pY3CtG+fvlqJyofMAFNrZAE+7e/RWR4X4cD9tgOGsA2U2CdtMDqwqyMyIzQ5KKqAKmcyaYxkzYd3YvjGNGFtXRPRj58DT+LOemRrFnrBLyITmUDmUyO/NYgu2d26ukHVJo3tXAMGpAs+cQmh0NeClan30uwN7TgnQ6nRd4r3thOGOAJqYB2UVC79AfZAnKHGUxQa8A2tNaNLW/jKvXv8Dyb8s4yryKA4O10A3roIvpUB+swTdz1/LJZ27PQBvT5lBH1RD4BChzlQ2wBNtc22aE/ULQgzRCl4P5BPcT93GMOYz9wb2QhCRgAq35d8u/L2PXe7tADVGgBlcQ+AXQtmlvsP/gzbJZvp8PMkJCFBYh8m0knyiVSsHe0YIGZz1+/uVOvt8z7QGvnwf+ST5EIRHIUyR4fh50rbp5lsDcYR4ReAXgBrng9q/Qfa0bfy035r7Ot2dvz4IX4IEIEAXwvDzscOw4zxJUd1YfEXlE4Aa4BQHMlwzSSBeI7iXvoTxWDqKPYCFsFaKmr+YVliB0JfS89DVpiuhlB9k/tSOZTuYFvq98yI7L0/MAsVWcGp0bfW61hbahwltxSeARsIKyWKesSKQSWIwvYkvvllwfx88pgOvhwthu/AzAxlVX8vz385tLbaVxwpcLZtEw0QDjsBGctzksiE4CimZFfHp++oWHbnbuUfdB0komMgHsRN1r0MWBsEmYODF5onY92/UTwcvBxuzXcN1ccHycVSn2FaPYWwzCQUDWKIt7z3utAJ5c74Hz+OLSomynY+cVfiM/xW3JiDyZpB3FuZrj4oCwE+Ad4qWMjPHjpTtL0mzMoxyZz9yM39Q7Y85Ok930icqm+k59TL2wm9l90dZv8y/8sPAigGf/iUN/Q4anM2zOsdLe+L+4VfwBVVjDs2rTYx0AAAAASUVORK5CYII=');
   background-position: 8px 8px;
   background-repeat: no-repeat;
-  border: 1px solid #be7;
+  border: 1px solid #bbee77;
 }
 
 /* line 212, ../sass/components/_misc.scss */
@@ -1200,14 +1210,14 @@ table {
 }
 
 /* line 275, ../sass/components/_misc.scss */
-.tabs-primary__tab, .tabs-secondary__tab,
+.tabs-primary__tab, .tabs-primary__tab.is-active, .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
   float: left;
   margin: 0 3px;
 }
 
 /* line 279, ../sass/components/_misc.scss */
-a.tabs-primary__tab-link, a.tabs-secondary__tab-link {
+a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   border: 1px solid #e9e9e9;
   border-right: 0;
   border-bottom: 0;
@@ -1302,7 +1312,7 @@ a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   text-shadow: 1px 1px 0 white;
   background-color: #f2f2f2;
   color: #666;
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 /* line 367, ../sass/components/_misc.scss */
@@ -1531,7 +1541,7 @@ tr.odd .form-item, tr.even .form-item {
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
-  border: 1px solid #c00;
+  border: 1px solid #cc0000;
 }
 /* line 606, ../sass/components/_misc.scss */
 .form-item .description {
@@ -1617,11 +1627,11 @@ html.js #user-login-form li.openid-link,
 form th {
   text-align: left;
   padding-right: 1em;
-  border-bottom: 3px solid #ccc;
+  border-bottom: 3px solid #cccccc;
 }
 /* line 681, ../sass/components/_misc.scss */
 form tbody {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
 }
 /* line 684, ../sass/components/_misc.scss */
 form table ul {
@@ -1632,7 +1642,7 @@ form table ul {
 tr.even,
 tr.odd {
   background-color: #eee;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
   padding: 0.1em 0.6em;
 }
 
@@ -1749,7 +1759,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1376896851');
+  background-image: url('../images/progress.gif?1382636948');
 }
 
 /**
@@ -1927,7 +1937,7 @@ tr.selected td {
 }
 /* line 76, ../sass/design/_header.scss */
 #sub-header #button-container .btn-primary:hover {
-  color: #fff !important;
+  color: white !important;
 }
 /* line 78, ../sass/design/_header.scss */
 #sub-header #button-container .letters {
@@ -2107,20 +2117,28 @@ tr.selected td {
 }
 /* line 200, ../sass/design/_header.scss */
 #name-and-slogan #site-name {
-  font-size: 115%;
   font-weight: normal;
 }
+<<<<<<< HEAD
 /* line 203, ../sass/design/_header.scss */
+=======
+/* line 189, ../sass/design/_header.scss */
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
 #name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
   color: #14105E;
 }
 
+<<<<<<< HEAD
 /* line 210, ../sass/design/_header.scss */
+=======
+/* line 196, ../sass/design/_header.scss */
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
 .header__logo {
   float: right;
   margin-top: 2.25em;
 }
 
+<<<<<<< HEAD
 /* line 216, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
   padding-left: 25px;
@@ -2133,13 +2151,31 @@ tr.selected td {
 .header__region #islandora-solr-simple-search-form .form-text {
   width: 13em;
   border: 1px solid #E0E0E0;
+=======
+/* line 202, ../sass/design/_header.scss */
+.header__region #islandora-solr-simple-search-form {
+  padding-left: 25px;
+}
+/* line 204, ../sass/design/_header.scss */
+.header__region #islandora-solr-simple-search-form .adv_search {
+  display: none;
+}
+/* line 207, ../sass/design/_header.scss */
+.header__region #islandora-solr-simple-search-form .form-text {
+  width: 12em;
+  border: 1px solid #e0e0e0;
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   height: 34px;
   padding: 3px 10px 5px 10px;
   border-radius: 3px;
   color: #D7D7D7;
   line-height: 1.5em;
 }
+<<<<<<< HEAD
 /* line 230, ../sass/design/_header.scss */
+=======
+/* line 215, ../sass/design/_header.scss */
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
 .header__region #islandora-solr-simple-search-form .form-submit {
   background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
   width: 35px;
@@ -2155,26 +2191,26 @@ tr.selected td {
 }
 
 /* line 10, ../sass/design/_navigation.scss */
-#block-block-4 {
+#block-block-2 {
   width: 41%;
   float: left;
   max-width: 450px;
 }
 /* line 15, ../sass/design/_navigation.scss */
-#block-block-4 h2 {
-  border: 1px solid #E0E0E0;
+#block-block-2 h2 {
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   font-weight: normal;
   font-size: 80%;
   padding: 8px 13px;
 }
 /* line 21, ../sass/design/_navigation.scss */
-#block-block-4 h2 a {
+#block-block-2 h2 a {
   width: 100%;
   display: inline-block;
 }
 /* line 26, ../sass/design/_navigation.scss */
-#block-block-4 p {
+#block-block-2 p {
   font-size: 75%;
   letter-spacing: 0.3pt;
   margin-left: 10px;
@@ -2193,7 +2229,7 @@ h1.page__title {
   font-weight: normal;
   color: #777;
   padding: 5px 10px 8px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   margin: 1em 0;
 }
@@ -2227,7 +2263,7 @@ a:hover, a:active {
 /* line 39, ../sass/design/_page.scss */
 ul.pager {
   text-align: right;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   height: 40px;
 }
@@ -2297,13 +2333,13 @@ ul.pager li {
   float: left;
   clear: left;
   max-width: 450px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 5px;
 }
 /* line 15, ../sass/design/_islandora.scss */
 #block-islandora-solr-simple h2 {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   font-weight: normal;
   font-size: 80%;
   padding: 4px 13px 8px;
@@ -2330,8 +2366,12 @@ ul.pager li {
   width: 65%;
   height: 50px;
   color: #D7D7D7;
+<<<<<<< HEAD
   border: 1px solid #E0E0E0;
   line-height: 3em;
+=======
+  border: 1px solid #e0e0e0;
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   padding-left: 0.5em;
 }
 /* line 45, ../sass/design/_islandora.scss */
@@ -2344,20 +2384,30 @@ ul.pager li {
 
 /* line 55, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets, #block-islandora-solr-current-query, #block-islandora-solr-sort {
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 8px 8px 8px 8px;
   padding: 10px 15px 20px;
 }
+<<<<<<< HEAD
 /* line 60, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets h3, #block-islandora-solr-current-query h3, #block-islandora-solr-sort h3, #block-islandora-solr-sort h2 {
+=======
+/* line 59, ../sass/design/_islandora.scss */
+#block-islandora-solr-basic-facets h3, #block-islandora-solr-current-query h3, #block-islandora-solr-sort h3, #block-islandora-solr-current-query #block-islandora-solr-sort h2, #block-islandora-solr-sort #block-islandora-solr-current-query h2, #block-islandora-solr-sort h2 {
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   margin: 0 -15px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   font-size: 80%;
   font-weight: normal;
   padding: 0 15px 8px;
 }
+<<<<<<< HEAD
 /* line 67, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets .islandora-solr-range-slider, #block-islandora-solr-current-query .islandora-solr-range-slider, #block-islandora-solr-sort .islandora-solr-range-slider, #block-islandora-solr-basic-facets .islandora-solr-date-filter, #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort .islandora-solr-date-filter {
+=======
+/* line 66, ../sass/design/_islandora.scss */
+#block-islandora-solr-basic-facets .islandora-solr-range-slider, #block-islandora-solr-current-query .islandora-solr-range-slider, #block-islandora-solr-sort .islandora-solr-range-slider, #block-islandora-solr-basic-facets .islandora-solr-date-filter, #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-current-query #block-islandora-solr-sort .islandora-solr-date-filter, #block-islandora-solr-current-query #block-islandora-solr-sort .islandora-solr-date-filter, #block-islandora-solr-sort #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort .islandora-solr-date-filter {
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   font-size: 75%;
   color: #777;
 }
@@ -2400,7 +2450,7 @@ ul.pager li {
 }
 /* line 116, ../sass/design/_islandora.scss */
 .block-islandora-solr ul li {
-  border-bottom: 1px solid #EEF0ED;
+  border-bottom: 1px solid #eef0ed;
   list-style: none outside none;
   padding: 3px 0;
 }
@@ -2555,7 +2605,7 @@ ul.pager li {
 
 /* line 256, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.even {
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
 }
 
 /* line 260, ../sass/design/_islandora.scss */
@@ -2568,6 +2618,26 @@ ul.pager li {
   float: right;
   width: 55%;
   margin-right: 1em;
+}
+
+/* line 272, ../sass/design/_islandora.scss */
+.dwn_btn {
+  background: none repeat scroll 0 0 #777777;
+  border: 0 none;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  height: 45px;
+  letter-spacing: 0.3pt;
+  margin-left: 1em;
+  text-transform: capitalize;
+  padding: 10px;
+  position: relative;
+  top: 25px;
+}
+
+/* line 285, ../sass/design/_islandora.scss */
+.dwn_btn:hover {
+  color: #121738 !important;
 }
 
 /* line 5, ../sass/design/_footer.scss */
@@ -2588,14 +2658,14 @@ ul.pager li {
   margin: 0 10px;
 }
 /* line 20, ../sass/design/_footer.scss */
-#footer #block-block-1 {
-  border-top: 1px solid #999;
+#footer #block-block-4 {
+  border-top: 1px solid #999999;
   font-size: 80%;
   color: #777;
   clear: left;
 }
 /* line 25, ../sass/design/_footer.scss */
-#footer #block-block-1 p {
+#footer #block-block-4 p {
   margin: 0;
 }
 
