@@ -31,7 +31,7 @@
 			"file": "sass/design/_header.scss",
 			"settings":
 			{
-				"buffer_size": 5915,
+				"buffer_size": 5921,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "sass/design/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 4466,
+				"buffer_size": 4606,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/design/_page.scss",
 			"settings":
 			{
-				"buffer_size": 678,
+				"buffer_size": 1252,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 5348,
+				"buffer_size": 5822,
 				"line_ending": "Unix"
 			}
 		},
@@ -288,15 +288,15 @@
 					"file": "sass/design/_header.scss",
 					"settings":
 					{
-						"buffer_size": 5915,
+						"buffer_size": 5921,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								0,
+								0
 							]
 						],
 						"settings":
@@ -315,15 +315,15 @@
 					"file": "sass/design/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 4466,
+						"buffer_size": 4606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								263
+								0,
+								0
 							]
 						],
 						"settings":
@@ -355,7 +355,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -368,15 +369,15 @@
 					"file": "sass/design/_page.scss",
 					"settings":
 					{
-						"buffer_size": 678,
+						"buffer_size": 1252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								678,
-								678
+								0,
+								0
 							]
 						],
 						"settings":
@@ -422,7 +423,7 @@
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 5348,
+						"buffer_size": 5822,
 						"regions":
 						{
 						},

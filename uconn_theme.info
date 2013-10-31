@@ -60,8 +60,8 @@ stylesheets[all][] = css/styles.css
 ;
 ; If you still wish to use conditional stylesheets, you must install the
 ; conditional stylesheets module: https://drupal.org/project/conditional_styles
-;stylesheets-conditional[lte IE 8][all][] = css/ie8.css
-
+stylesheets-conditional[IE 8][all][] = css/ie8.css
+;stylesheets-conditional[IE 9][all][] = css/ie9.css
 
 
 ; Optionally add some JavaScripts to your theme.

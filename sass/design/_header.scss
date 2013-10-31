@@ -44,9 +44,16 @@
 		display: inline-block;
 		margin: 0px 2px;
 		padding: 0px;
-		vertical-align: middle; }
+		vertical-align: middle; 
+		position: relative;
+		top: -7px;
+	}
  
-	#button-container .btn-block { height:100%;padding: 7px 8px; margin-top: -6px; }
+	#button-container .btn-block { 
+		display: inline-block;
+		height: 35px;
+		width: 35px;
+	}
  
 	#button-container .btn-primary,#button-container .btn-primary:hover,#button-container .btn-primary:visited,#button-container .btn-primary:focus {
 		background-color: #1c3173;
@@ -72,13 +79,19 @@
 		font-size: 11px;
 		display: inline-block;
 		word-wrap: nowrap;
-		padding: 0 8px; }
+		span {
+			margin-right: 1px;
+			position: relative;
+			top: 5px;
+			right: 6px;
+		}
+	}
 
 	.icon-search {
-		background: url('../images/icon-search.png') no-repeat;
-		display: inline-block;
-		height: 18px;
-		width: 18px;
+		background: url('../images/icon-search.png') no-repeat 9px 8px;
+		display: block;
+		height: 35px;
+		width: 35px;
 	}
  
 	#home-link {
@@ -206,12 +219,13 @@
 			display: none;
 		}
 		.form-text {
-			width: 12em;
+			width: 13em;
 			border: 1px solid #E0E0E0;
 			height: 34px;
 			padding: 3px 10px 5px 10px;
 			border-radius: 3px;
 			color: #D7D7D7;
+			line-height: 1.5em;
 		}
 		.form-submit {
 			background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
