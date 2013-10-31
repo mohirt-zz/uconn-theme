@@ -1749,7 +1749,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1376896851');
+  background-image: url('../images/progress.gif?1383232997');
 }
 
 /**
@@ -2216,77 +2216,79 @@ a:hover, a:active {
 
 /* line 31, ../sass/design/_page.scss */
 #main {
-  padding: 10em 0 7em;
+  padding: 0 0 9.3em;
+  position: relative;
+  top: 11em;
 }
 
-/* line 35, ../sass/design/_page.scss */
+/* line 37, ../sass/design/_page.scss */
 #content {
   color: #777;
 }
 
-/* line 39, ../sass/design/_page.scss */
+/* line 41, ../sass/design/_page.scss */
 ul.pager {
   text-align: right;
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   height: 40px;
 }
-/* line 44, ../sass/design/_page.scss */
+/* line 46, ../sass/design/_page.scss */
 ul.pager li {
   line-height: 2.4em;
   vertical-align: middle;
 }
 
-/* line 49, ../sass/design/_page.scss */
+/* line 51, ../sass/design/_page.scss */
 .tabs-primary, .tabs-secondary {
   position: relative;
   z-index: 50;
 }
 
-/* line 57, ../sass/design/_page.scss */
+/* line 59, ../sass/design/_page.scss */
 #book-viewer #BRtoolbar {
   background: #EEE;
 }
-/* line 60, ../sass/design/_page.scss */
+/* line 62, ../sass/design/_page.scss */
 #book-viewer #BRpageview, #book-viewer #BRcontainer {
   background: #CCC;
 }
-/* line 63, ../sass/design/_page.scss */
+/* line 65, ../sass/design/_page.scss */
 #book-viewer #BRnav {
   background: #EEE;
 }
 
-/* line 68, ../sass/design/_page.scss */
+/* line 70, ../sass/design/_page.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
 
-/* line 73, ../sass/design/_page.scss */
+/* line 75, ../sass/design/_page.scss */
 #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
-/* line 76, ../sass/design/_page.scss */
+/* line 78, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent {
   max-width: 95%;
   border-color: #000E2F;
   padding: 0.5em;
 }
-/* line 77, ../sass/design/_page.scss */
+/* line 79, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent #cboxLoadedContent {
   max-width: 100%;
 }
-/* line 85, ../sass/design/_page.scss */
+/* line 87, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatHead {
   background: #000E2F;
   padding: 20px 10px;
 }
-/* line 89, ../sass/design/_page.scss */
+/* line 91, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 92, ../sass/design/_page.scss */
+/* line 94, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
 }

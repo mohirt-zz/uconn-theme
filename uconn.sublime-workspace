@@ -28,34 +28,26 @@
 	"buffers":
 	[
 		{
-			"file": "sass/design/_header.scss",
+			"file": "sass/design/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 6061,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+				"buffer_size": 5921,
+=======
+				"buffer_size": 489,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "uconn_theme.info",
+			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 5555,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/ie8.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/design/_islandora.scss",
-			"settings":
-			{
-				"buffer_size": 4626,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+				"buffer_size": 4606,
+=======
+				"buffer_size": 5920,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 				"line_ending": "Unix"
 			}
 		},
@@ -63,6 +55,7 @@
 			"file": "sass/design/_navigation.scss",
 			"settings":
 			{
+<<<<<<< HEAD:uconn-theme.sublime-workspace
 				"buffer_size": 468,
 				"line_ending": "Unix"
 			}
@@ -72,22 +65,29 @@
 			"settings":
 			{
 				"buffer_size": 1252,
+=======
+				"buffer_size": 469,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/design/_footer.scss",
+			"file": "sass/design/_header.scss",
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 5902,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/layouts/_responsive.scss",
+			"file": "sass/design/_islandora.scss",
 			"settings":
 			{
+<<<<<<< HEAD:uconn-theme.sublime-workspace
 				"buffer_size": 5822,
+=======
+				"buffer_size": 4933,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 				"line_ending": "Unix"
 			}
 		},
@@ -96,14 +96,6 @@
 			"settings":
 			{
 				"buffer_size": 66,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/page.tpl.php",
-			"settings":
-			{
-				"buffer_size": 5370,
 				"line_ending": "Unix"
 			}
 		}
@@ -140,6 +132,13 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCONN Dev/themes/uconn-theme/sass/layouts/_fixed.scss",
+		"/Volumes/UCONN Dev/themes/uconn-theme/sass/design/_page.scss",
+		"/Volumes/UCONN Dev/themes/uconn-theme/templates/islandora-book-book.tpl.php",
+		"/Volumes/UCONN Dev/themes/uconn-theme/templates/page.tpl.php",
+		"/Volumes/UCONN Dev/themes/uconn-theme/templates/islandora-basic-collection-wrapper.tpl.php",
+		"/Volumes/UCONN Dev/themes/uconn-theme/sass/design/_navigation.scss",
+		"/Volumes/UCONN Dev/themes/uconn-theme/sass/components/_misc.scss",
 		"/Volumes/The Vag/themes/uconn_theme/sass/_normalize.scss",
 		"/Volumes/The Vag/themes/uconn_theme/template.php",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
@@ -212,6 +211,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -219,6 +219,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"block-block-4",
+			"41%",
+			"block-block-4",
 			"h2",
 			".btn-block",
 			"solr-basic-face",
@@ -296,23 +299,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/design/_header.scss",
+					"file": "sass/design/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 6061,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+						"buffer_size": 5921,
+=======
+						"buffer_size": 489,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5723,
-								5723
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+								0,
+								0
+=======
+								329,
+								329
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 							]
 						],
 						"settings":
@@ -321,56 +333,68 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3774.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "uconn_theme.info",
+					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 5555,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+						"buffer_size": 4606,
+=======
+						"buffer_size": 5920,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2505,
-								2505
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+								0,
+								0
+=======
+								5698,
+								5698
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 625.0,
+						"translation.y": 3234.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/ie8.css",
+					"file": "sass/design/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								469,
+								469
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -380,18 +404,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sass/design/_islandora.scss",
+					"file": "sass/design/_header.scss",
 					"settings":
 					{
-						"buffer_size": 4626,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+						"buffer_size": 1252,
+=======
+						"buffer_size": 5902,
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								734,
-								734
+<<<<<<< HEAD:uconn-theme.sublime-workspace
+								0,
+								0
+=======
+								5314,
+								5314
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 							]
 						],
 						"settings":
@@ -400,25 +433,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 367.0,
+						"translation.y": 2722.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "sass/design/_navigation.scss",
+					"file": "sass/design/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 468,
+						"buffer_size": 4933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								4931,
+								4931
 							]
 						],
 						"settings":
@@ -427,67 +460,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3937.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "sass/design/_page.scss",
-					"settings":
-					{
-						"buffer_size": 1252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 259.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/design/_footer.scss",
-					"settings":
-					{
-						"buffer_size": 489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+<<<<<<< HEAD:uconn-theme.sublime-workspace
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
@@ -515,7 +495,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
+=======
+>>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84:uconn.sublime-workspace
 					"file": "sass/design/_views.scss",
 					"settings":
 					{
@@ -526,41 +508,13 @@
 						"selection":
 						[
 							[
-								33,
-								33
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "templates/page.tpl.php",
-					"settings":
-					{
-						"buffer_size": 5370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								608,
-								608
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
