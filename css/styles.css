@@ -910,7 +910,7 @@ table {
   }
 
   /* line 226, ../sass/layouts/_responsive.scss */
-  #block-block-4, #block-islandora-solr-simple {
+  #block-block-2, #block-islandora-solr-simple {
     width: 100% !important;
   }
 
@@ -2155,13 +2155,13 @@ tr.selected td {
 }
 
 /* line 10, ../sass/design/_navigation.scss */
-#block-block-4 {
+#block-block-2 {
   width: 41%;
   float: left;
   max-width: 450px;
 }
 /* line 15, ../sass/design/_navigation.scss */
-#block-block-4 h2 {
+#block-block-2 h2 {
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   font-weight: normal;
@@ -2169,12 +2169,12 @@ tr.selected td {
   padding: 8px 13px;
 }
 /* line 21, ../sass/design/_navigation.scss */
-#block-block-4 h2 a {
+#block-block-2 h2 a {
   width: 100%;
   display: inline-block;
 }
 /* line 26, ../sass/design/_navigation.scss */
-#block-block-4 p {
+#block-block-2 p {
   font-size: 75%;
   letter-spacing: 0.3pt;
   margin-left: 10px;
