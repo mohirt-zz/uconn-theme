@@ -2216,9 +2216,9 @@ a:hover, a:active {
 
 /* line 31, ../sass/design/_page.scss */
 #main {
-  padding: 0 0 9.3em;
+  padding: 0 0 8em;
   position: relative;
-  top: 11em;
+  top: 10em;
 }
 
 /* line 37, ../sass/design/_page.scss */
