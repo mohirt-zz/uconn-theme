@@ -36,14 +36,6 @@
 			}
 		},
 		{
-			"file": "uconn_theme.info",
-			"settings":
-			{
-				"buffer_size": 5555,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "css/ie8.css",
 			"settings":
 			{
@@ -63,7 +55,7 @@
 			"file": "sass/design/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 468,
+				"buffer_size": 504,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +63,7 @@
 			"file": "sass/design/_page.scss",
 			"settings":
 			{
-				"buffer_size": 1252,
+				"buffer_size": 1283,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +79,7 @@
 			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 5822,
+				"buffer_size": 5777,
 				"line_ending": "Unix"
 			}
 		},
@@ -140,6 +132,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/The Vag/themes/uconn_theme/uconn_theme.info",
 		"/Volumes/The Vag/themes/uconn_theme/sass/_normalize.scss",
 		"/Volumes/The Vag/themes/uconn_theme/template.php",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
@@ -209,9 +202,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -219,6 +213,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#navigation",
+			"height: 3em;",
+			"#navigation",
 			"h2",
 			".btn-block",
 			"solr-basic-face",
@@ -296,7 +293,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -321,39 +318,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3774.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "uconn_theme.info",
-					"settings":
-					{
-						"buffer_size": 5555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2505,
-								2505
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 625.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/ie8.css",
 					"settings":
 					{
@@ -379,7 +350,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "sass/design/_islandora.scss",
 					"settings":
 					{
@@ -406,19 +377,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "sass/design/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 468,
+						"buffer_size": 504,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								152,
+								152
 							]
 						],
 						"settings":
@@ -433,11 +404,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "sass/design/_page.scss",
 					"settings":
 					{
-						"buffer_size": 1252,
+						"buffer_size": 1283,
 						"regions":
 						{
 						},
@@ -460,7 +431,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "sass/design/_footer.scss",
 					"settings":
 					{
@@ -487,19 +458,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 5822,
+						"buffer_size": 5777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1857,
+								1857
 							]
 						],
 						"settings":
@@ -509,13 +480,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2589.0,
+						"translation.y": 872.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "sass/design/_views.scss",
 					"settings":
 					{
@@ -541,7 +512,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "templates/page.tpl.php",
 					"settings":
 					{

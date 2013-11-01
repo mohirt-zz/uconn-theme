@@ -2293,6 +2293,27 @@ ul.pager li {
   margin: 0.5em;
 }
 
+/* line 99, ../sass/design/_page.scss */
+a.dwn_btn {
+  background-color: #DEDEDE;
+  border: 1px solid #BBB;
+  border-radius: 4px;
+  color: #333333;
+  letter-spacing: 1px;
+  padding: 0.5em 1em;
+  text-align: center;
+  transition: background-color 0.3s ease 0s;
+  margin: 1.5em 0;
+  display: block;
+}
+
+/* line 111, ../sass/design/_page.scss */
+a.dwn_btn:hover {
+  background-color: #E9E9E9;
+  border: 1px solid #F2F2F2;
+  color: #121738;
+}
+
 /* line 6, ../sass/design/_islandora.scss */
 #block-islandora-solr-simple {
   width: 40%;
