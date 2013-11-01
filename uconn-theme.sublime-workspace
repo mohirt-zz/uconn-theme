@@ -63,7 +63,7 @@
 			"file": "sass/design/_page.scss",
 			"settings":
 			{
-				"buffer_size": 1283,
+				"buffer_size": 1625,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,9 +132,9 @@
 	},
 	"file_history":
 	[
+		"/Volumes/The Vag/themes/uconn_theme/template.php",
 		"/Volumes/The Vag/themes/uconn_theme/uconn_theme.info",
 		"/Volumes/The Vag/themes/uconn_theme/sass/_normalize.scss",
-		"/Volumes/The Vag/themes/uconn_theme/template.php",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/uconn_theme.info",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/sass/_header.scss",
@@ -202,7 +202,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -293,7 +293,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -408,15 +408,15 @@
 					"file": "sass/design/_page.scss",
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 1625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1348,
+								1348
 							]
 						],
 						"settings":
@@ -425,7 +425,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 259.0,
+						"translation.y": 1456.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
