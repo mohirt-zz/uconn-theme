@@ -2195,7 +2195,7 @@ h1.page__title {
   padding: 5px 10px 8px;
   border: 1px solid #E0E0E0;
   border-radius: 8px;
-  margin: 1em 0;
+  margin: 1em 0 0;
 }
 
 /* line 19, ../sass/design/_page.scss */
@@ -2216,84 +2216,85 @@ a:hover, a:active {
 
 /* line 31, ../sass/design/_page.scss */
 #main {
-  padding: 0 0 10em;
+  padding: 0;
   position: relative;
   top: 10em;
+  margin-bottom: -10em;
 }
 
-/* line 37, ../sass/design/_page.scss */
+/* line 38, ../sass/design/_page.scss */
 #content {
   color: #777;
 }
 
-/* line 41, ../sass/design/_page.scss */
+/* line 42, ../sass/design/_page.scss */
 ul.pager {
   text-align: right;
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   height: 40px;
 }
-/* line 46, ../sass/design/_page.scss */
+/* line 47, ../sass/design/_page.scss */
 ul.pager li {
   line-height: 2.4em;
   vertical-align: middle;
 }
 
-/* line 51, ../sass/design/_page.scss */
+/* line 52, ../sass/design/_page.scss */
 .tabs-primary, .tabs-secondary {
   position: relative;
   z-index: 50;
 }
 
-/* line 59, ../sass/design/_page.scss */
+/* line 60, ../sass/design/_page.scss */
 #book-viewer #BRtoolbar {
   background: #EEE;
 }
-/* line 62, ../sass/design/_page.scss */
+/* line 63, ../sass/design/_page.scss */
 #book-viewer #BRpageview, #book-viewer #BRcontainer {
   background: #CCC;
 }
-/* line 65, ../sass/design/_page.scss */
+/* line 66, ../sass/design/_page.scss */
 #book-viewer #BRnav {
   background: #EEE;
 }
 
-/* line 70, ../sass/design/_page.scss */
+/* line 71, ../sass/design/_page.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
 
-/* line 75, ../sass/design/_page.scss */
+/* line 76, ../sass/design/_page.scss */
 #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
-/* line 78, ../sass/design/_page.scss */
+/* line 79, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent {
   max-width: 95%;
   border-color: #000E2F;
   padding: 0.5em;
 }
-/* line 79, ../sass/design/_page.scss */
+/* line 80, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent #cboxLoadedContent {
   max-width: 100%;
 }
-/* line 87, ../sass/design/_page.scss */
+/* line 88, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatHead {
   background: #000E2F;
   padding: 20px 10px;
 }
-/* line 91, ../sass/design/_page.scss */
+/* line 92, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 94, ../sass/design/_page.scss */
+/* line 95, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
 }
 
-/* line 99, ../sass/design/_page.scss */
+/* line 100, ../sass/design/_page.scss */
 a.dwn_btn {
   background-color: #DEDEDE;
   border: 1px solid #BBB;
@@ -2308,39 +2309,39 @@ a.dwn_btn {
   width: 7em;
 }
 
-/* line 112, ../sass/design/_page.scss */
+/* line 113, ../sass/design/_page.scss */
 a.dwn_btn:hover {
   background-color: #E9E9E9;
   border: 1px solid #F2F2F2;
   color: #121738;
 }
 
-/* line 118, ../sass/design/_page.scss */
+/* line 119, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node {
   /*border: 1px solid #E0E0E0;
   border-radius: 8px 8px 8px 8px;
   height: 1.5em;*/
   padding: 20px 10px 30px;
 }
-/* line 123, ../sass/design/_page.scss */
+/* line 124, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2 {
   float: left;
   font-size: 80%;
   font-weight: normal;
 }
-/* line 128, ../sass/design/_page.scss */
+/* line 129, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2:after {
   content: ":";
 }
-/* line 131, ../sass/design/_page.scss */
+/* line 132, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node .service-links {
   float: left;
 }
-/* line 134, ../sass/design/_page.scss */
+/* line 135, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node ul {
   margin: 0;
 }
-/* line 137, ../sass/design/_page.scss */
+/* line 138, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node li {
   display: inline;
   padding-right: 10px;
@@ -2513,15 +2514,15 @@ a.dwn_btn:hover {
 /* line 166, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper .islandora-basic-collection-caption {
   color: #888;
-  font-size: 110%;
+  font-size: 95%;
   padding-top: 2px;
-  padding-left: 17px;
+  padding-left: 10px;
 }
 /* line 172, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper .islandora-basic-collection-display-switch {
   position: absolute;
   right: 30px;
-  top: 215px;
+  top: 55px;
 }
 /* line 178, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper p {
@@ -2631,35 +2632,36 @@ a.dwn_btn:hover {
   position: absolute;
   left: 0;
   right: 0;
+  bottom: 0;
 }
-/* line 11, ../sass/design/_footer.scss */
+/* line 12, ../sass/design/_footer.scss */
 #footer #block-menu-menu-footer-menu ul {
   font-size: 90%;
 }
-/* line 13, ../sass/design/_footer.scss */
+/* line 14, ../sass/design/_footer.scss */
 #footer #block-menu-menu-footer-menu ul li {
   list-style: none;
   display: inline;
   margin: 0 10px;
 }
-/* line 20, ../sass/design/_footer.scss */
+/* line 21, ../sass/design/_footer.scss */
 #footer #block-block-4 {
   border-top: 1px solid #999;
   font-size: 80%;
   color: #777;
   clear: left;
 }
-/* line 25, ../sass/design/_footer.scss */
+/* line 26, ../sass/design/_footer.scss */
 #footer #block-block-4 p {
   margin: 0;
 }
 
-/* line 31, ../sass/design/_footer.scss */
+/* line 32, ../sass/design/_footer.scss */
 #block-block-3 {
   float: left;
   margin: 0 2em 0 0;
 }
-/* line 34, ../sass/design/_footer.scss */
+/* line 35, ../sass/design/_footer.scss */
 #block-block-3 p {
   margin: 1em 0 0;
 }
