@@ -2305,13 +2305,45 @@ a.dwn_btn {
   transition: background-color 0.3s ease 0s;
   margin: 1.5em 0;
   display: block;
+  width: 7em;
 }
 
-/* line 111, ../sass/design/_page.scss */
+/* line 112, ../sass/design/_page.scss */
 a.dwn_btn:hover {
   background-color: #E9E9E9;
   border: 1px solid #F2F2F2;
   color: #121738;
+}
+
+/* line 118, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node {
+  /*border: 1px solid #E0E0E0;
+  border-radius: 8px 8px 8px 8px;
+  height: 1.5em;*/
+  padding: 20px 10px 30px;
+}
+/* line 123, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node h2 {
+  float: left;
+  font-size: 80%;
+  font-weight: normal;
+}
+/* line 128, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node h2:after {
+  content: ":";
+}
+/* line 131, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node .service-links {
+  float: left;
+}
+/* line 134, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node ul {
+  margin: 0;
+}
+/* line 137, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node li {
+  display: inline;
+  padding-right: 10px;
 }
 
 /* line 6, ../sass/design/_islandora.scss */
