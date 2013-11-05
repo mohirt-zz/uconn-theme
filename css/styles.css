@@ -925,29 +925,29 @@ table {
   }
 }
 @media all and (max-width: 935px) {
-  /* line 244, ../sass/layouts/_responsive.scss */
+  /* line 243, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 20px !important;
     font-size: 90%;
     padding-top: 20px !important;
   }
 
-  /* line 249, ../sass/layouts/_responsive.scss */
+  /* line 248, ../sass/layouts/_responsive.scss */
   #site-name {
-    font-size: 100% !important;
+    font-size: 90% !important;
   }
 
-  /* line 252, ../sass/layouts/_responsive.scss */
+  /* line 251, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
     font-size: 90%;
   }
 
-  /* line 255, ../sass/layouts/_responsive.scss */
+  /* line 254, ../sass/layouts/_responsive.scss */
   #header {
     height: 100px !important;
   }
 
-  /* line 258, ../sass/layouts/_responsive.scss */
+  /* line 257, ../sass/layouts/_responsive.scss */
   .header__logo {
     margin-top: 1.2em !important;
   }
@@ -2124,7 +2124,7 @@ tr.selected td {
 
 /* line 197, ../sass/design/_header.scss */
 #name-and-slogan {
-  padding: 40px 15px 0 30px;
+  padding: 35px 15px 0 30px;
 }
 /* line 199, ../sass/design/_header.scss */
 #name-and-slogan #site-slogan {
