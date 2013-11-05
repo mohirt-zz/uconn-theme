@@ -30,6 +30,21 @@
     </div>  
   </div>
 
+  <div class="container" id="site-header">
+    <div class="row-fluid">
+      <div class="span8">
+        <p id="super-title"><a href="http://communications.uconn.edu/" class="smoothing">University Communications</a></p>
+      </div>
+      <div id="search-container" class="span4">
+        
+          <form class="form-search">
+    <input type="text" class="input-medium" placeholder="Search this site...">
+    <button type="submit" class="btn">Search</button>
+</form>
+
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="page">

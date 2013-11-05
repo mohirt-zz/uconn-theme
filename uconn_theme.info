@@ -136,6 +136,7 @@ settings[zen_html5_respond_meta][] = html5
 settings[zen_html5_respond_meta][] = meta
 settings[zen_rebuild_registry]     = 1
 settings[zen_wireframes]           = 0
+settings[uconn_theme_mods_solr_field] = mods_abstract_ms
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.
