@@ -919,8 +919,8 @@ table {
 
   /* line 231, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
-    font-size: 80%;
-    width: 30%;
+    font-size: 80% !important;
+    width: 30% !important;
   }
 }
 @media all and (max-width: 767px) {
@@ -2328,15 +2328,24 @@ ul.pager li {
   padding: 20px 10px;
 }
 /* line 93, ../sass/design/_page.scss */
+#cboxWrapper .BRfloat {
+  min-width: 385px;
+}
+/* line 96, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 96, ../sass/design/_page.scss */
+/* line 99, ../sass/design/_page.scss */
+#cboxWrapper .BRfloatMeta {
+  height: auto !important;
+  height: auto !important;
+}
+/* line 103, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
 }
 
-/* line 101, ../sass/design/_page.scss */
+/* line 108, ../sass/design/_page.scss */
 a.dwn_btn {
   background-color: #DEDEDE;
   border: 1px solid #BBB;
@@ -2351,39 +2360,39 @@ a.dwn_btn {
   width: 7em;
 }
 
-/* line 114, ../sass/design/_page.scss */
+/* line 121, ../sass/design/_page.scss */
 a.dwn_btn:hover {
   background-color: #E9E9E9;
   border: 1px solid #F2F2F2;
   color: #121738;
 }
 
-/* line 120, ../sass/design/_page.scss */
+/* line 127, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node {
   /*border: 1px solid #E0E0E0;
   border-radius: 8px 8px 8px 8px;
   height: 1.5em;*/
   padding: 20px 10px 30px;
 }
-/* line 125, ../sass/design/_page.scss */
+/* line 132, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2 {
   float: left;
   font-size: 80%;
   font-weight: normal;
 }
-/* line 130, ../sass/design/_page.scss */
+/* line 137, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2:after {
   content: ":";
 }
-/* line 133, ../sass/design/_page.scss */
+/* line 140, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node .service-links {
   float: left;
 }
-/* line 136, ../sass/design/_page.scss */
+/* line 143, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node ul {
   margin: 0;
 }
-/* line 139, ../sass/design/_page.scss */
+/* line 146, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node li {
   display: inline;
   padding-right: 10px;
@@ -2674,7 +2683,7 @@ a.dwn_btn:hover {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  margin-top: 10em;
 }
 /* line 12, ../sass/design/_footer.scss */
 #footer #block-menu-menu-footer-menu ul {
