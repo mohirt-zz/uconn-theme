@@ -135,7 +135,6 @@
   outline: medium none;
   text-indent: -9999px;
   width: 22px;
-  padding: 0 2px;
 }
 
 .islandora-solr-display a.display-grid, .islandora-view-grid {
@@ -151,6 +150,10 @@
 	li {
 		padding: 0;
 	}	
+}
+
+.page-islandora-search .islandora-solr-display li a {
+	padding: 0 2px;
 }
 
 .islandora-basic-collection-wrapper {
