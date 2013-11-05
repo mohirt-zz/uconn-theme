@@ -228,6 +228,9 @@ $zen-auto-include-item-base: false;
   #block-accordion-rotator-accordion-rotator {
     width: 92.3% !important;
   }
+  #block-islandora-solr-simple .form-submit {
+    font-size: 85%;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -256,5 +259,8 @@ $zen-auto-include-item-base: false;
   }
   .header__logo {
     margin-top: 1.2em !important;
+  }
+  #main {
+    top: 7em !important;
   }
 }

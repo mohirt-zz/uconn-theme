@@ -916,40 +916,50 @@ table {
   #block-accordion-rotator-accordion-rotator {
     width: 92.3% !important;
   }
+
+  /* line 231, ../sass/layouts/_responsive.scss */
+  #block-islandora-solr-simple .form-submit {
+    font-size: 85%;
+  }
 }
 @media all and (max-width: 767px) {
-  /* line 235, ../sass/layouts/_responsive.scss */
+  /* line 238, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
     font-size: 85%;
   }
 }
 @media all and (max-width: 935px) {
-  /* line 243, ../sass/layouts/_responsive.scss */
+  /* line 246, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 20px !important;
     font-size: 90%;
     padding-top: 20px !important;
   }
 
-  /* line 248, ../sass/layouts/_responsive.scss */
+  /* line 251, ../sass/layouts/_responsive.scss */
   #site-name {
     font-size: 90% !important;
   }
 
-  /* line 251, ../sass/layouts/_responsive.scss */
+  /* line 254, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
     font-size: 90%;
   }
 
-  /* line 254, ../sass/layouts/_responsive.scss */
+  /* line 257, ../sass/layouts/_responsive.scss */
   #header {
     height: 100px !important;
   }
 
-  /* line 257, ../sass/layouts/_responsive.scss */
+  /* line 260, ../sass/layouts/_responsive.scss */
   .header__logo {
     margin-top: 1.2em !important;
+  }
+
+  /* line 263, ../sass/layouts/_responsive.scss */
+  #main {
+    top: 7em !important;
   }
 }
 /* Component (SMACSS module) rules */
