@@ -929,11 +929,27 @@ table {
   #name-and-slogan {
     padding-left: 20px !important;
     font-size: 90%;
+    padding-top: 20px !important;
   }
 
   /* line 249, ../sass/layouts/_responsive.scss */
+  #site-name {
+    font-size: 100% !important;
+  }
+
+  /* line 252, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
     font-size: 90%;
+  }
+
+  /* line 255, ../sass/layouts/_responsive.scss */
+  #header {
+    height: 100px !important;
+  }
+
+  /* line 258, ../sass/layouts/_responsive.scss */
+  .header__logo {
+    margin-top: 1.2em !important;
   }
 }
 /* Component (SMACSS module) rules */
@@ -1898,8 +1914,10 @@ tr.selected td {
   text-align: right;
   position: relative;
   top: -42px;
+  display: inline-block;
+  float: right;
 }
-/* line 41, ../sass/design/_header.scss */
+/* line 47, ../sass/design/_header.scss */
 #sub-header #button-container > span {
   width: 35px;
   height: 35px;
@@ -1910,13 +1928,13 @@ tr.selected td {
   position: relative;
   top: -7px;
 }
-/* line 52, ../sass/design/_header.scss */
+/* line 58, ../sass/design/_header.scss */
 #sub-header #button-container .btn-block {
   display: inline-block;
   height: 35px;
   width: 35px;
 }
-/* line 58, ../sass/design/_header.scss */
+/* line 64, ../sass/design/_header.scss */
 #sub-header #button-container .btn-primary, #sub-header #button-container .btn-primary:hover, #sub-header #button-container .btn-primary:visited, #sub-header #button-container .btn-primary:focus {
   background-color: #1c3173;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #304994), color-stop(100%, #1c3173));
@@ -1935,86 +1953,86 @@ tr.selected td {
   background-position: top;
   overflow: hidden;
 }
-/* line 76, ../sass/design/_header.scss */
+/* line 82, ../sass/design/_header.scss */
 #sub-header #button-container .btn-primary:hover {
   color: #fff !important;
 }
-/* line 78, ../sass/design/_header.scss */
+/* line 84, ../sass/design/_header.scss */
 #sub-header #button-container .letters {
   font-size: 11px;
   display: inline-block;
   word-wrap: nowrap;
 }
-/* line 82, ../sass/design/_header.scss */
+/* line 88, ../sass/design/_header.scss */
 #sub-header #button-container .letters span {
   margin-right: 1px;
   position: relative;
   top: 5px;
   right: 6px;
 }
-/* line 90, ../sass/design/_header.scss */
+/* line 96, ../sass/design/_header.scss */
 #sub-header .icon-search {
   background: url("../images/icon-search.png") no-repeat 9px 8px;
   display: block;
   height: 35px;
   width: 35px;
 }
-/* line 97, ../sass/design/_header.scss */
+/* line 103, ../sass/design/_header.scss */
 #sub-header #home-link {
   display: table-cell;
   height: 60px;
   vertical-align: middle;
 }
-/* line 102, ../sass/design/_header.scss */
+/* line 108, ../sass/design/_header.scss */
 #sub-header #home-link:hover {
   text-decoration: none;
   color: #eee;
 }
-/* line 104, ../sass/design/_header.scss */
+/* line 110, ../sass/design/_header.scss */
 #sub-header #home-link span {
   margin: auto 0;
   float: left;
 }
-/* line 106, ../sass/design/_header.scss */
+/* line 112, ../sass/design/_header.scss */
 #sub-header #site-header {
   padding: 30px 0 15px 0;
 }
-/* line 108, ../sass/design/_header.scss */
+/* line 114, ../sass/design/_header.scss */
 #sub-header #site-header .row-fluid {
   display: table;
 }
-/* line 110, ../sass/design/_header.scss */
+/* line 116, ../sass/design/_header.scss */
 #sub-header #site-header .row-fluid [class*='span'] {
   float: none;
   display: table-cell;
   vertical-align: top;
   margin: auto;
 }
-/* line 116, ../sass/design/_header.scss */
+/* line 122, ../sass/design/_header.scss */
 #sub-header #site-title {
   margin: 0px;
   padding: 0px;
   line-height: inherit;
 }
-/* line 121, ../sass/design/_header.scss */
+/* line 127, ../sass/design/_header.scss */
 #sub-header #site-title a {
   padding: 0;
   margin: 0;
 }
-/* line 123, ../sass/design/_header.scss */
+/* line 129, ../sass/design/_header.scss */
 #sub-header #site-title a:link, #sub-header #site-title a:visited {
   font-family: "Proxima Nova";
   font-size: 24px;
   font-weight: 500;
   color: #0b1860;
 }
-/* line 129, ../sass/design/_header.scss */
+/* line 135, ../sass/design/_header.scss */
 #sub-header #super-title {
   font-size: 13px;
   margin: 0;
   padding: 0;
 }
-/* line 134, ../sass/design/_header.scss */
+/* line 140, ../sass/design/_header.scss */
 #sub-header #super-title a:link, #sub-header #super-title a:visited {
   color: #868695;
   font-family: "Proxima Nova",Verdana,Arial,Helvetica,sans-serif;
@@ -2023,78 +2041,78 @@ tr.selected td {
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
-/* line 142, ../sass/design/_header.scss */
+/* line 148, ../sass/design/_header.scss */
 #sub-header #search-container {
   text-align: right;
 }
-/* line 144, ../sass/design/_header.scss */
+/* line 150, ../sass/design/_header.scss */
 #sub-header #search-container #button-container .btn-primary {
   background: #e9e9e9;
 }
-/* line 146, ../sass/design/_header.scss */
+/* line 152, ../sass/design/_header.scss */
 #sub-header #site-search {
   margin: 0px;
 }
-/* line 148, ../sass/design/_header.scss */
+/* line 154, ../sass/design/_header.scss */
 #sub-header #site-header #search-container form {
   margin: 0px;
 }
-/* line 150, ../sass/design/_header.scss */
+/* line 156, ../sass/design/_header.scss */
 #sub-header #site-header #search-container input {
   float: none;
   display: inline-block;
   width: 75%;
   margin: 0px;
 }
-/* line 156, ../sass/design/_header.scss */
+/* line 162, ../sass/design/_header.scss */
 #sub-header #site-header #search-container button {
   margin: 0px;
   display: inline-block;
   width: 20%;
 }
-/* line 162, ../sass/design/_header.scss */
+/* line 168, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container, #sub-header .lt-ie8 #uconn-header-container {
   min-height: 60px;
   line-height: 60px;
 }
-/* line 164, ../sass/design/_header.scss */
+/* line 170, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #university-of-connecticut, #sub-header .lt-ie8 #uconn-header-container #university-of-connecticut {
   border: none;
 }
-/* line 166, ../sass/design/_header.scss */
+/* line 172, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container .row-fluid > div, #sub-header .lt-ie8 #uconn-header-container .row-fluid > div {
   display: block;
   float: left;
 }
-/* line 168, ../sass/design/_header.scss */
+/* line 174, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container, #sub-header .lt-ie8 #uconn-header-container #button-container {
   margin-top: 12.5px;
 }
-/* line 170, ../sass/design/_header.scss */
+/* line 176, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container span, #sub-header .lt-ie8 #uconn-header-container #button-container span {
   zoom: 1;
   *display: inline;
 }
-/* line 172, ../sass/design/_header.scss */
+/* line 178, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container .btn-block, #sub-header .lt-ie8 #uconn-header-container #button-container .btn-block {
   padding: 0px;
 }
-/* line 174, ../sass/design/_header.scss */
+/* line 180, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container .btn, #sub-header .ie7 #uconn-header-container #button-container .btn i, #sub-header .lt-ie8 #uconn-header-container #button-container .btn, #sub-header .lt-ie8 #uconn-header-container #button-container .btn i {
   line-height: 35px;
   margin: 0px;
 }
-/* line 176, ../sass/design/_header.scss */
+/* line 182, ../sass/design/_header.scss */
 #sub-header .ie7 #site-header .row-fluid, #sub-header .lt-ie8 #site-header .row-fluid {
   display: block;
 }
-/* line 178, ../sass/design/_header.scss */
+/* line 184, ../sass/design/_header.scss */
 #sub-header .ie7 #site-header .row-fluid > div, #sub-header .lt-ie8 #site-header .row-fluid > div {
   display: block;
   float: left;
 }
 
-/* line 182, ../sass/design/_header.scss */
+/* line 188, ../sass/design/_header.scss */
 #header {
   height: 135px;
   background: #eee;
@@ -2104,42 +2122,42 @@ tr.selected td {
   z-index: 100;
 }
 
-/* line 191, ../sass/design/_header.scss */
+/* line 197, ../sass/design/_header.scss */
 #name-and-slogan {
-  padding: 20px 15px 0 30px;
+  padding: 40px 15px 0 30px;
 }
-/* line 193, ../sass/design/_header.scss */
+/* line 199, ../sass/design/_header.scss */
 #name-and-slogan #site-slogan {
   text-transform: uppercase;
   letter-spacing: 0.5pt;
   font-size: 80%;
   color: #9C9BA9;
 }
-/* line 200, ../sass/design/_header.scss */
+/* line 206, ../sass/design/_header.scss */
 #name-and-slogan #site-name {
   font-size: 115%;
   font-weight: normal;
 }
-/* line 203, ../sass/design/_header.scss */
+/* line 209, ../sass/design/_header.scss */
 #name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
   color: #14105E;
 }
 
-/* line 210, ../sass/design/_header.scss */
+/* line 216, ../sass/design/_header.scss */
 .header__logo {
   float: right;
   margin-top: 2.25em;
 }
 
-/* line 216, ../sass/design/_header.scss */
+/* line 222, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
   padding-left: 25px;
 }
-/* line 218, ../sass/design/_header.scss */
+/* line 224, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .adv_search {
   display: none;
 }
-/* line 221, ../sass/design/_header.scss */
+/* line 227, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-text {
   width: 13em;
   border: 1px solid #E0E0E0;
@@ -2149,7 +2167,7 @@ tr.selected td {
   color: #D7D7D7;
   line-height: 1.5em;
 }
-/* line 230, ../sass/design/_header.scss */
+/* line 236, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-submit {
   background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
   width: 35px;
@@ -2231,82 +2249,83 @@ a:hover, a:active {
   padding: 0;
   position: relative;
   top: 10em;
-  margin-bottom: -10em;
+  /*margin-bottom: -10em;*/
+  clear: both;
 }
 
-/* line 38, ../sass/design/_page.scss */
+/* line 39, ../sass/design/_page.scss */
 #content {
   color: #777;
 }
 
-/* line 42, ../sass/design/_page.scss */
+/* line 43, ../sass/design/_page.scss */
 ul.pager {
   text-align: right;
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   height: 40px;
 }
-/* line 47, ../sass/design/_page.scss */
+/* line 48, ../sass/design/_page.scss */
 ul.pager li {
   line-height: 2.4em;
   vertical-align: middle;
 }
 
-/* line 52, ../sass/design/_page.scss */
+/* line 53, ../sass/design/_page.scss */
 .tabs-primary, .tabs-secondary {
   position: relative;
   z-index: 50;
 }
 
-/* line 60, ../sass/design/_page.scss */
+/* line 61, ../sass/design/_page.scss */
 #book-viewer #BRtoolbar {
   background: #EEE;
 }
-/* line 63, ../sass/design/_page.scss */
+/* line 64, ../sass/design/_page.scss */
 #book-viewer #BRpageview, #book-viewer #BRcontainer {
   background: #CCC;
 }
-/* line 66, ../sass/design/_page.scss */
+/* line 67, ../sass/design/_page.scss */
 #book-viewer #BRnav {
   background: #EEE;
 }
 
-/* line 71, ../sass/design/_page.scss */
+/* line 72, ../sass/design/_page.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
 
-/* line 76, ../sass/design/_page.scss */
+/* line 77, ../sass/design/_page.scss */
 #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
-/* line 79, ../sass/design/_page.scss */
+/* line 80, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent {
   max-width: 95%;
   border-color: #000E2F;
   padding: 0.5em;
 }
-/* line 80, ../sass/design/_page.scss */
+/* line 81, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent #cboxLoadedContent {
   max-width: 100%;
 }
-/* line 88, ../sass/design/_page.scss */
+/* line 89, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatHead {
   background: #000E2F;
   padding: 20px 10px;
 }
-/* line 92, ../sass/design/_page.scss */
+/* line 93, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 95, ../sass/design/_page.scss */
+/* line 96, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
 }
 
-/* line 100, ../sass/design/_page.scss */
+/* line 101, ../sass/design/_page.scss */
 a.dwn_btn {
   background-color: #DEDEDE;
   border: 1px solid #BBB;
@@ -2321,39 +2340,39 @@ a.dwn_btn {
   width: 7em;
 }
 
-/* line 113, ../sass/design/_page.scss */
+/* line 114, ../sass/design/_page.scss */
 a.dwn_btn:hover {
   background-color: #E9E9E9;
   border: 1px solid #F2F2F2;
   color: #121738;
 }
 
-/* line 119, ../sass/design/_page.scss */
+/* line 120, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node {
   /*border: 1px solid #E0E0E0;
   border-radius: 8px 8px 8px 8px;
   height: 1.5em;*/
   padding: 20px 10px 30px;
 }
-/* line 124, ../sass/design/_page.scss */
+/* line 125, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2 {
   float: left;
   font-size: 80%;
   font-weight: normal;
 }
-/* line 129, ../sass/design/_page.scss */
+/* line 130, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2:after {
   content: ":";
 }
-/* line 132, ../sass/design/_page.scss */
+/* line 133, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node .service-links {
   float: left;
 }
-/* line 135, ../sass/design/_page.scss */
+/* line 136, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node ul {
   margin: 0;
 }
-/* line 138, ../sass/design/_page.scss */
+/* line 139, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node li {
   display: inline;
   padding-right: 10px;

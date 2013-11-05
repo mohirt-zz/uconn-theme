@@ -32,7 +32,8 @@ a:hover, a:active {
 	padding: 0;
 	position: relative;
 	top: 10em;
-	margin-bottom: -10em;
+	/*margin-bottom: -10em;*/
+	clear: both;
 }
 
 #content {

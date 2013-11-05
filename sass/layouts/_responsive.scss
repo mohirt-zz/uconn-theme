@@ -244,10 +244,18 @@ $zen-auto-include-item-base: false;
   #name-and-slogan {
     padding-left: 20px !important;
     font-size: 90%;
+    padding-top: 20px !important;
   }
-
+  #site-name {
+    font-size: 100% !important;
+  }
   #block-islandora-solr-simple .form-submit {
     font-size: 90%;
   }
-
+  #header {
+    height: 100px !important;
+  }
+  .header__logo {
+    margin-top: 1.2em !important;
+  }
 }
