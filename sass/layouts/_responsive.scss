@@ -64,9 +64,8 @@ $zen-auto-include-item-base: false;
   }
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: $nav-height;
+
+    height: 0;
     width: $zen-grid-width;
   }
 }
@@ -229,21 +228,40 @@ $zen-auto-include-item-base: false;
   #block-accordion-rotator-accordion-rotator {
     width: 92.3% !important;
   }
+  #block-islandora-solr-simple .form-submit {
+    font-size: 80%;
+    width: 30%;
+  }
 }
 
 @media all and (max-width: 767px) {
 
   #name-and-slogan {
     padding-left: 10px !important;
+    font-size: 85%;
   }
-  #site-name {
-    font-size: 95%;
-  }
-
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 935px) {
+
+  #name-and-slogan {
+    padding-left: 20px !important;
+    font-size: 90%;
+    padding-top: 20px !important;
+  }
   #site-name {
-     font-size: 115%;
+    font-size: 90% !important;
+  }
+  #block-islandora-solr-simple .form-submit {
+    font-size: 90%;
+  }
+  #header {
+    height: 100px !important;
+  }
+  .header__logo {
+    margin-top: 1.2em !important;
+  }
+  #main {
+    top: 7em !important;
   }
 }

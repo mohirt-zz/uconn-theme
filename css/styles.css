@@ -292,7 +292,7 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   padding-bottom: -1px;
   margin: 1.5em 0;
 }
@@ -686,9 +686,7 @@ table {
   /* line 65, ../sass/layouts/_responsive.scss */
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: 3em;
+    height: 0;
     width: 100%;
   }
 }
@@ -699,19 +697,19 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 86, ../sass/layouts/_responsive.scss */
+  /* line 85, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 88, ../sass/layouts/_responsive.scss */
+  /* line 87, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 93, ../sass/layouts/_responsive.scss */
+  /* line 92, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -722,19 +720,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 101, ../sass/layouts/_responsive.scss */
+  /* line 100, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 103, ../sass/layouts/_responsive.scss */
+  /* line 102, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-  /* line 108, ../sass/layouts/_responsive.scss */
+  /* line 107, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -745,27 +743,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 116, ../sass/layouts/_responsive.scss */
+  /* line 115, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 118, ../sass/layouts/_responsive.scss */
+  /* line 117, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 123, ../sass/layouts/_responsive.scss */
+  /* line 122, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 128, ../sass/layouts/_responsive.scss */
+  /* line 127, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -779,7 +777,7 @@ table {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-  /* line 134, ../sass/layouts/_responsive.scss */
+  /* line 133, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -789,7 +787,7 @@ table {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 138, ../sass/layouts/_responsive.scss */
+  /* line 137, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -797,14 +795,14 @@ table {
     margin-right: -33.33333%;
     clear: left;
   }
-  /* line 143, ../sass/layouts/_responsive.scss */
+  /* line 142, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 147, ../sass/layouts/_responsive.scss */
+  /* line 146, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -819,12 +817,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 164, ../sass/layouts/_responsive.scss */
+  /* line 163, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 166, ../sass/layouts/_responsive.scss */
+  /* line 165, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -833,7 +831,7 @@ table {
     margin-left: 24%;
     width: 76%;
   }
-  /* line 173, ../sass/layouts/_responsive.scss */
+  /* line 172, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -847,19 +845,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 184, ../sass/layouts/_responsive.scss */
+  /* line 183, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 186, ../sass/layouts/_responsive.scss */
+  /* line 185, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 191, ../sass/layouts/_responsive.scss */
+  /* line 190, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -870,27 +868,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 199, ../sass/layouts/_responsive.scss */
+  /* line 198, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 201, ../sass/layouts/_responsive.scss */
+  /* line 200, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 206, ../sass/layouts/_responsive.scss */
+  /* line 205, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 211, ../sass/layouts/_responsive.scss */
+  /* line 210, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -899,41 +897,70 @@ table {
   }
 }
 @media all and (max-width: 480px) {
-  /* line 220, ../sass/layouts/_responsive.scss */
+  /* line 219, ../sass/layouts/_responsive.scss */
   #university-of-connecticut, .header__logo-image {
     display: none;
   }
 
-  /* line 223, ../sass/layouts/_responsive.scss */
+  /* line 222, ../sass/layouts/_responsive.scss */
   #site-name {
     font-size: 98% !important;
   }
 
-  /* line 226, ../sass/layouts/_responsive.scss */
+  /* line 225, ../sass/layouts/_responsive.scss */
   #block-block-2, #block-islandora-solr-simple {
     width: 100% !important;
   }
 
-  /* line 229, ../sass/layouts/_responsive.scss */
+  /* line 228, ../sass/layouts/_responsive.scss */
   #block-accordion-rotator-accordion-rotator {
     width: 92.3% !important;
   }
+
+  /* line 231, ../sass/layouts/_responsive.scss */
+  #block-islandora-solr-simple .form-submit {
+    font-size: 80%;
+    width: 30%;
+  }
 }
 @media all and (max-width: 767px) {
-  /* line 236, ../sass/layouts/_responsive.scss */
+  /* line 239, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
-  }
-
-  /* line 239, ../sass/layouts/_responsive.scss */
-  #site-name {
-    font-size: 95%;
+    font-size: 85%;
   }
 }
-@media all and (min-width: 768px) {
-  /* line 246, ../sass/layouts/_responsive.scss */
+@media all and (max-width: 935px) {
+  /* line 247, ../sass/layouts/_responsive.scss */
+  #name-and-slogan {
+    padding-left: 20px !important;
+    font-size: 90%;
+    padding-top: 20px !important;
+  }
+
+  /* line 252, ../sass/layouts/_responsive.scss */
   #site-name {
-    font-size: 115%;
+    font-size: 90% !important;
+  }
+
+  /* line 255, ../sass/layouts/_responsive.scss */
+  #block-islandora-solr-simple .form-submit {
+    font-size: 90%;
+  }
+
+  /* line 258, ../sass/layouts/_responsive.scss */
+  #header {
+    height: 100px !important;
+  }
+
+  /* line 261, ../sass/layouts/_responsive.scss */
+  .header__logo {
+    margin-top: 1.2em !important;
+  }
+
+  /* line 264, ../sass/layouts/_responsive.scss */
+  #main {
+    top: 7em !important;
   }
 }
 /* Component (SMACSS module) rules */
@@ -958,7 +985,7 @@ table {
 .with-wireframes .region-sidebar-second,
 .with-wireframes #footer,
 .with-wireframes .region-bottom {
-  outline: 1px solid #cccccc;
+  outline: 1px solid #ccc;
 }
 
 /**
@@ -1136,7 +1163,7 @@ table {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAD6UlEQVR42s2WX0xbVRzH3YwmC4k+GF/0ZS/S267/bmnX9nL7bwstZlnbjTDYyoC5GCbB0ZW5pdJCe6swbLFA6bpWIGuRMWVjKGP+21QW3SZBSAjGh4XEaTZTH82Cm/3ztS2xs7mw4KLRk3xyzj33/H6fe5Pz7zEA/yr/vUDukj9FH6drqTaqT8EoPs/UV+nX6TD1BlUh9AqLHlmgPKLcRHmoCOWmElK/FOKTYpS8UwLJkASiUyLI3pKhlClN0g46qj+qL/pbArlbrlO1q25JeiSgR2iYJ8ywXLSg/qP6LNl2ro8+Q4MMkKCd9K2t3q3KdQnkXXIF5aISkgEJzONm1F2qW52pDJN1MI2bUBIuAdVOJWSMTPNQgX6/vkjVpvpREpag6oMqWCYta1IzbsHh9ga0RJtzY8URMdRO9U/KSuWmNQUqh2pY3CtG+fvlqJyofMAFNrZAE+7e/RWR4X4cD9tgOGsA2U2CdtMDqwqyMyIzQ5KKqAKmcyaYxkzYd3YvjGNGFtXRPRj58DT+LOemRrFnrBLyITmUDmUyO/NYgu2d26ukHVJo3tXAMGpAs+cQmh0NeClan30uwN7TgnQ6nRd4r3thOGOAJqYB2UVC79AfZAnKHGUxQa8A2tNaNLW/jKvXv8Dyb8s4yryKA4O10A3roIvpUB+swTdz1/LJZ27PQBvT5lBH1RD4BChzlQ2wBNtc22aE/ULQgzRCl4P5BPcT93GMOYz9wb2QhCRgAq35d8u/L2PXe7tADVGgBlcQ+AXQtmlvsP/gzbJZvp8PMkJCFBYh8m0knyiVSsHe0YIGZz1+/uVOvt8z7QGvnwf+ST5EIRHIUyR4fh50rbp5lsDcYR4ReAXgBrng9q/Qfa0bfy035r7Ot2dvz4IX4IEIEAXwvDzscOw4zxJUd1YfEXlE4Aa4BQHMlwzSSBeI7iXvoTxWDqKPYCFsFaKmr+YVliB0JfS89DVpiuhlB9k/tSOZTuYFvq98yI7L0/MAsVWcGp0bfW61hbahwltxSeARsIKyWKesSKQSWIwvYkvvllwfx88pgOvhwthu/AzAxlVX8vz385tLbaVxwpcLZtEw0QDjsBGctzksiE4CimZFfHp++oWHbnbuUfdB0komMgHsRN1r0MWBsEmYODF5onY92/UTwcvBxuzXcN1ccHycVSn2FaPYWwzCQUDWKIt7z3utAJ5c74Hz+OLSomynY+cVfiM/xW3JiDyZpB3FuZrj4oCwE+Ad4qWMjPHjpTtL0mzMoxyZz9yM39Q7Y85Ok930icqm+k59TL2wm9l90dZv8y/8sPAigGf/iUN/Q4anM2zOsdLe+L+4VfwBVVjDs2rTYx0AAAAASUVORK5CYII=');
   background-position: 8px 8px;
   background-repeat: no-repeat;
-  border: 1px solid #bbee77;
+  border: 1px solid #be7;
 }
 
 /* line 212, ../sass/components/_misc.scss */
@@ -1312,7 +1339,7 @@ a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   text-shadow: 1px 1px 0 white;
   background-color: #f2f2f2;
   color: #666;
-  padding: 0 0.5em;
+  padding: 0 .5em;
 }
 
 /* line 367, ../sass/components/_misc.scss */
@@ -1541,7 +1568,7 @@ tr.odd .form-item, tr.even .form-item {
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
-  border: 1px solid #cc0000;
+  border: 1px solid #c00;
 }
 /* line 606, ../sass/components/_misc.scss */
 .form-item .description {
@@ -1627,11 +1654,11 @@ html.js #user-login-form li.openid-link,
 form th {
   text-align: left;
   padding-right: 1em;
-  border-bottom: 3px solid #cccccc;
+  border-bottom: 3px solid #ccc;
 }
 /* line 681, ../sass/components/_misc.scss */
 form tbody {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
 }
 /* line 684, ../sass/components/_misc.scss */
 form table ul {
@@ -1642,7 +1669,7 @@ form table ul {
 tr.even,
 tr.odd {
   background-color: #eee;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   padding: 0.1em 0.6em;
 }
 
@@ -1759,7 +1786,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1382636948');
+  background-image: url('../images/progress.gif?1383678420');
 }
 
 /**
@@ -1898,8 +1925,10 @@ tr.selected td {
   text-align: right;
   position: relative;
   top: -42px;
+  display: inline-block;
+  float: right;
 }
-/* line 41, ../sass/design/_header.scss */
+/* line 47, ../sass/design/_header.scss */
 #sub-header #button-container > span {
   width: 35px;
   height: 35px;
@@ -1910,13 +1939,13 @@ tr.selected td {
   position: relative;
   top: -7px;
 }
-/* line 52, ../sass/design/_header.scss */
+/* line 58, ../sass/design/_header.scss */
 #sub-header #button-container .btn-block {
   display: inline-block;
   height: 35px;
   width: 35px;
 }
-/* line 58, ../sass/design/_header.scss */
+/* line 64, ../sass/design/_header.scss */
 #sub-header #button-container .btn-primary, #sub-header #button-container .btn-primary:hover, #sub-header #button-container .btn-primary:visited, #sub-header #button-container .btn-primary:focus {
   background-color: #1c3173;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #304994), color-stop(100%, #1c3173));
@@ -1935,86 +1964,86 @@ tr.selected td {
   background-position: top;
   overflow: hidden;
 }
-/* line 76, ../sass/design/_header.scss */
+/* line 82, ../sass/design/_header.scss */
 #sub-header #button-container .btn-primary:hover {
-  color: white !important;
+  color: #fff !important;
 }
-/* line 78, ../sass/design/_header.scss */
+/* line 84, ../sass/design/_header.scss */
 #sub-header #button-container .letters {
   font-size: 11px;
   display: inline-block;
   word-wrap: nowrap;
 }
-/* line 82, ../sass/design/_header.scss */
+/* line 88, ../sass/design/_header.scss */
 #sub-header #button-container .letters span {
   margin-right: 1px;
   position: relative;
   top: 5px;
   right: 6px;
 }
-/* line 90, ../sass/design/_header.scss */
+/* line 96, ../sass/design/_header.scss */
 #sub-header .icon-search {
   background: url("../images/icon-search.png") no-repeat 9px 8px;
   display: block;
   height: 35px;
   width: 35px;
 }
-/* line 97, ../sass/design/_header.scss */
+/* line 103, ../sass/design/_header.scss */
 #sub-header #home-link {
   display: table-cell;
   height: 60px;
   vertical-align: middle;
 }
-/* line 102, ../sass/design/_header.scss */
+/* line 108, ../sass/design/_header.scss */
 #sub-header #home-link:hover {
   text-decoration: none;
   color: #eee;
 }
-/* line 104, ../sass/design/_header.scss */
+/* line 110, ../sass/design/_header.scss */
 #sub-header #home-link span {
   margin: auto 0;
   float: left;
 }
-/* line 106, ../sass/design/_header.scss */
+/* line 112, ../sass/design/_header.scss */
 #sub-header #site-header {
   padding: 30px 0 15px 0;
 }
-/* line 108, ../sass/design/_header.scss */
+/* line 114, ../sass/design/_header.scss */
 #sub-header #site-header .row-fluid {
   display: table;
 }
-/* line 110, ../sass/design/_header.scss */
+/* line 116, ../sass/design/_header.scss */
 #sub-header #site-header .row-fluid [class*='span'] {
   float: none;
   display: table-cell;
   vertical-align: top;
   margin: auto;
 }
-/* line 116, ../sass/design/_header.scss */
+/* line 122, ../sass/design/_header.scss */
 #sub-header #site-title {
   margin: 0px;
   padding: 0px;
   line-height: inherit;
 }
-/* line 121, ../sass/design/_header.scss */
+/* line 127, ../sass/design/_header.scss */
 #sub-header #site-title a {
   padding: 0;
   margin: 0;
 }
-/* line 123, ../sass/design/_header.scss */
+/* line 129, ../sass/design/_header.scss */
 #sub-header #site-title a:link, #sub-header #site-title a:visited {
   font-family: "Proxima Nova";
   font-size: 24px;
   font-weight: 500;
   color: #0b1860;
 }
-/* line 129, ../sass/design/_header.scss */
+/* line 135, ../sass/design/_header.scss */
 #sub-header #super-title {
   font-size: 13px;
   margin: 0;
   padding: 0;
 }
-/* line 134, ../sass/design/_header.scss */
+/* line 140, ../sass/design/_header.scss */
 #sub-header #super-title a:link, #sub-header #super-title a:visited {
   color: #868695;
   font-family: "Proxima Nova",Verdana,Arial,Helvetica,sans-serif;
@@ -2023,78 +2052,78 @@ tr.selected td {
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
-/* line 142, ../sass/design/_header.scss */
+/* line 148, ../sass/design/_header.scss */
 #sub-header #search-container {
   text-align: right;
 }
-/* line 144, ../sass/design/_header.scss */
+/* line 150, ../sass/design/_header.scss */
 #sub-header #search-container #button-container .btn-primary {
   background: #e9e9e9;
 }
-/* line 146, ../sass/design/_header.scss */
+/* line 152, ../sass/design/_header.scss */
 #sub-header #site-search {
   margin: 0px;
 }
-/* line 148, ../sass/design/_header.scss */
+/* line 154, ../sass/design/_header.scss */
 #sub-header #site-header #search-container form {
   margin: 0px;
 }
-/* line 150, ../sass/design/_header.scss */
+/* line 156, ../sass/design/_header.scss */
 #sub-header #site-header #search-container input {
   float: none;
   display: inline-block;
   width: 75%;
   margin: 0px;
 }
-/* line 156, ../sass/design/_header.scss */
+/* line 162, ../sass/design/_header.scss */
 #sub-header #site-header #search-container button {
   margin: 0px;
   display: inline-block;
   width: 20%;
 }
-/* line 162, ../sass/design/_header.scss */
+/* line 168, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container, #sub-header .lt-ie8 #uconn-header-container {
   min-height: 60px;
   line-height: 60px;
 }
-/* line 164, ../sass/design/_header.scss */
+/* line 170, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #university-of-connecticut, #sub-header .lt-ie8 #uconn-header-container #university-of-connecticut {
   border: none;
 }
-/* line 166, ../sass/design/_header.scss */
+/* line 172, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container .row-fluid > div, #sub-header .lt-ie8 #uconn-header-container .row-fluid > div {
   display: block;
   float: left;
 }
-/* line 168, ../sass/design/_header.scss */
+/* line 174, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container, #sub-header .lt-ie8 #uconn-header-container #button-container {
   margin-top: 12.5px;
 }
-/* line 170, ../sass/design/_header.scss */
+/* line 176, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container span, #sub-header .lt-ie8 #uconn-header-container #button-container span {
   zoom: 1;
   *display: inline;
 }
-/* line 172, ../sass/design/_header.scss */
+/* line 178, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container .btn-block, #sub-header .lt-ie8 #uconn-header-container #button-container .btn-block {
   padding: 0px;
 }
-/* line 174, ../sass/design/_header.scss */
+/* line 180, ../sass/design/_header.scss */
 #sub-header .ie7 #uconn-header-container #button-container .btn, #sub-header .ie7 #uconn-header-container #button-container .btn i, #sub-header .lt-ie8 #uconn-header-container #button-container .btn, #sub-header .lt-ie8 #uconn-header-container #button-container .btn i {
   line-height: 35px;
   margin: 0px;
 }
-/* line 176, ../sass/design/_header.scss */
+/* line 182, ../sass/design/_header.scss */
 #sub-header .ie7 #site-header .row-fluid, #sub-header .lt-ie8 #site-header .row-fluid {
   display: block;
 }
-/* line 178, ../sass/design/_header.scss */
+/* line 184, ../sass/design/_header.scss */
 #sub-header .ie7 #site-header .row-fluid > div, #sub-header .lt-ie8 #site-header .row-fluid > div {
   display: block;
   float: left;
 }
 
-/* line 182, ../sass/design/_header.scss */
+/* line 188, ../sass/design/_header.scss */
 #header {
   height: 135px;
   background: #eee;
@@ -2104,78 +2133,51 @@ tr.selected td {
   z-index: 100;
 }
 
-/* line 191, ../sass/design/_header.scss */
+/* line 197, ../sass/design/_header.scss */
 #name-and-slogan {
-  padding: 20px 15px 0 30px;
+  padding: 35px 15px 0 30px;
 }
-/* line 193, ../sass/design/_header.scss */
+/* line 199, ../sass/design/_header.scss */
 #name-and-slogan #site-slogan {
   text-transform: uppercase;
   letter-spacing: 0.5pt;
   font-size: 80%;
   color: #9C9BA9;
 }
-/* line 200, ../sass/design/_header.scss */
+/* line 206, ../sass/design/_header.scss */
 #name-and-slogan #site-name {
   font-weight: normal;
 }
-<<<<<<< HEAD
-/* line 203, ../sass/design/_header.scss */
-=======
-/* line 189, ../sass/design/_header.scss */
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
+/* line 208, ../sass/design/_header.scss */
 #name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
   color: #14105E;
 }
 
-<<<<<<< HEAD
-/* line 210, ../sass/design/_header.scss */
-=======
-/* line 196, ../sass/design/_header.scss */
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
+/* line 215, ../sass/design/_header.scss */
 .header__logo {
   float: right;
   margin-top: 2.25em;
 }
 
-<<<<<<< HEAD
-/* line 216, ../sass/design/_header.scss */
+/* line 221, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
   padding-left: 25px;
 }
-/* line 218, ../sass/design/_header.scss */
+/* line 223, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .adv_search {
   display: none;
 }
-/* line 221, ../sass/design/_header.scss */
+/* line 226, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-text {
   width: 13em;
   border: 1px solid #E0E0E0;
-=======
-/* line 202, ../sass/design/_header.scss */
-.header__region #islandora-solr-simple-search-form {
-  padding-left: 25px;
-}
-/* line 204, ../sass/design/_header.scss */
-.header__region #islandora-solr-simple-search-form .adv_search {
-  display: none;
-}
-/* line 207, ../sass/design/_header.scss */
-.header__region #islandora-solr-simple-search-form .form-text {
-  width: 12em;
-  border: 1px solid #e0e0e0;
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   height: 34px;
   padding: 3px 10px 5px 10px;
   border-radius: 3px;
   color: #D7D7D7;
   line-height: 1.5em;
 }
-<<<<<<< HEAD
-/* line 230, ../sass/design/_header.scss */
-=======
-/* line 215, ../sass/design/_header.scss */
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
+/* line 235, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-submit {
   background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
   width: 35px;
@@ -2188,28 +2190,30 @@ tr.selected td {
 .breadcrumb {
   font-size: 80%;
   color: #777;
+  position: relative;
+  z-index: 200;
 }
 
-/* line 10, ../sass/design/_navigation.scss */
+/* line 12, ../sass/design/_navigation.scss */
 #block-block-2 {
   width: 41%;
   float: left;
   max-width: 450px;
 }
-/* line 15, ../sass/design/_navigation.scss */
+/* line 17, ../sass/design/_navigation.scss */
 #block-block-2 h2 {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #E0E0E0;
   border-radius: 8px;
   font-weight: normal;
   font-size: 80%;
   padding: 8px 13px;
 }
-/* line 21, ../sass/design/_navigation.scss */
+/* line 23, ../sass/design/_navigation.scss */
 #block-block-2 h2 a {
   width: 100%;
   display: inline-block;
 }
-/* line 26, ../sass/design/_navigation.scss */
+/* line 28, ../sass/design/_navigation.scss */
 #block-block-2 p {
   font-size: 75%;
   letter-spacing: 0.3pt;
@@ -2229,9 +2233,9 @@ h1.page__title {
   font-weight: normal;
   color: #777;
   padding: 5px 10px 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #E0E0E0;
   border-radius: 8px;
-  margin: 1em 0;
+  margin: 1em 0 0;
 }
 
 /* line 19, ../sass/design/_page.scss */
@@ -2252,79 +2256,136 @@ a:hover, a:active {
 
 /* line 31, ../sass/design/_page.scss */
 #main {
-  padding: 10em 0 7em;
+  padding: 0;
+  position: relative;
+  top: 10em;
+  /*margin-bottom: -10em;*/
+  clear: both;
 }
 
-/* line 35, ../sass/design/_page.scss */
+/* line 39, ../sass/design/_page.scss */
 #content {
   color: #777;
 }
 
-/* line 39, ../sass/design/_page.scss */
+/* line 43, ../sass/design/_page.scss */
 ul.pager {
   text-align: right;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #E0E0E0;
   border-radius: 8px;
   height: 40px;
 }
-/* line 44, ../sass/design/_page.scss */
+/* line 48, ../sass/design/_page.scss */
 ul.pager li {
   line-height: 2.4em;
   vertical-align: middle;
 }
 
-/* line 49, ../sass/design/_page.scss */
+/* line 53, ../sass/design/_page.scss */
 .tabs-primary, .tabs-secondary {
   position: relative;
   z-index: 50;
 }
 
-/* line 57, ../sass/design/_page.scss */
+/* line 61, ../sass/design/_page.scss */
 #book-viewer #BRtoolbar {
   background: #EEE;
 }
-/* line 60, ../sass/design/_page.scss */
+/* line 64, ../sass/design/_page.scss */
 #book-viewer #BRpageview, #book-viewer #BRcontainer {
   background: #CCC;
 }
-/* line 63, ../sass/design/_page.scss */
+/* line 67, ../sass/design/_page.scss */
 #book-viewer #BRnav {
   background: #EEE;
 }
 
-/* line 68, ../sass/design/_page.scss */
+/* line 72, ../sass/design/_page.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
 
-/* line 73, ../sass/design/_page.scss */
+/* line 77, ../sass/design/_page.scss */
 #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
-/* line 76, ../sass/design/_page.scss */
+/* line 80, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent {
   max-width: 95%;
   border-color: #000E2F;
   padding: 0.5em;
 }
-/* line 77, ../sass/design/_page.scss */
+/* line 81, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent #cboxLoadedContent {
   max-width: 100%;
 }
-/* line 85, ../sass/design/_page.scss */
+/* line 89, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatHead {
   background: #000E2F;
   padding: 20px 10px;
 }
-/* line 89, ../sass/design/_page.scss */
+/* line 93, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 92, ../sass/design/_page.scss */
+/* line 96, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
+}
+
+/* line 101, ../sass/design/_page.scss */
+a.dwn_btn {
+  background-color: #DEDEDE;
+  border: 1px solid #BBB;
+  border-radius: 4px;
+  color: #333333;
+  letter-spacing: 1px;
+  padding: 0.5em 1em;
+  text-align: center;
+  transition: background-color 0.3s ease 0s;
+  margin: 1.5em 0;
+  display: block;
+  width: 7em;
+}
+
+/* line 114, ../sass/design/_page.scss */
+a.dwn_btn:hover {
+  background-color: #E9E9E9;
+  border: 1px solid #F2F2F2;
+  color: #121738;
+}
+
+/* line 120, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node {
+  /*border: 1px solid #E0E0E0;
+  border-radius: 8px 8px 8px 8px;
+  height: 1.5em;*/
+  padding: 20px 10px 30px;
+}
+/* line 125, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node h2 {
+  float: left;
+  font-size: 80%;
+  font-weight: normal;
+}
+/* line 130, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node h2:after {
+  content: ":";
+}
+/* line 133, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node .service-links {
+  float: left;
+}
+/* line 136, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node ul {
+  margin: 0;
+}
+/* line 139, ../sass/design/_page.scss */
+#block-service-links-service-links-not-node li {
+  display: inline;
+  padding-right: 10px;
 }
 
 /* line 6, ../sass/design/_islandora.scss */
@@ -2333,13 +2394,13 @@ ul.pager li {
   float: left;
   clear: left;
   max-width: 450px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #E0E0E0;
   border-radius: 8px;
   padding: 5px;
 }
 /* line 15, ../sass/design/_islandora.scss */
 #block-islandora-solr-simple h2 {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E0E0E0;
   font-weight: normal;
   font-size: 80%;
   padding: 4px 13px 8px;
@@ -2366,12 +2427,8 @@ ul.pager li {
   width: 65%;
   height: 50px;
   color: #D7D7D7;
-<<<<<<< HEAD
   border: 1px solid #E0E0E0;
   line-height: 3em;
-=======
-  border: 1px solid #e0e0e0;
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   padding-left: 0.5em;
 }
 /* line 45, ../sass/design/_islandora.scss */
@@ -2384,30 +2441,20 @@ ul.pager li {
 
 /* line 55, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets, #block-islandora-solr-current-query, #block-islandora-solr-sort {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #E0E0E0;
   border-radius: 8px 8px 8px 8px;
   padding: 10px 15px 20px;
 }
-<<<<<<< HEAD
 /* line 60, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets h3, #block-islandora-solr-current-query h3, #block-islandora-solr-sort h3, #block-islandora-solr-sort h2 {
-=======
-/* line 59, ../sass/design/_islandora.scss */
-#block-islandora-solr-basic-facets h3, #block-islandora-solr-current-query h3, #block-islandora-solr-sort h3, #block-islandora-solr-current-query #block-islandora-solr-sort h2, #block-islandora-solr-sort #block-islandora-solr-current-query h2, #block-islandora-solr-sort h2 {
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   margin: 0 -15px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E0E0E0;
   font-size: 80%;
   font-weight: normal;
   padding: 0 15px 8px;
 }
-<<<<<<< HEAD
 /* line 67, ../sass/design/_islandora.scss */
 #block-islandora-solr-basic-facets .islandora-solr-range-slider, #block-islandora-solr-current-query .islandora-solr-range-slider, #block-islandora-solr-sort .islandora-solr-range-slider, #block-islandora-solr-basic-facets .islandora-solr-date-filter, #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort .islandora-solr-date-filter {
-=======
-/* line 66, ../sass/design/_islandora.scss */
-#block-islandora-solr-basic-facets .islandora-solr-range-slider, #block-islandora-solr-current-query .islandora-solr-range-slider, #block-islandora-solr-sort .islandora-solr-range-slider, #block-islandora-solr-basic-facets .islandora-solr-date-filter, #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-current-query #block-islandora-solr-sort .islandora-solr-date-filter, #block-islandora-solr-current-query #block-islandora-solr-sort .islandora-solr-date-filter, #block-islandora-solr-sort #block-islandora-solr-current-query .islandora-solr-date-filter, #block-islandora-solr-sort .islandora-solr-date-filter {
->>>>>>> 1f7469eb8639339376c2ff7b3d45e759817f2a84
   font-size: 75%;
   color: #777;
 }
@@ -2450,7 +2497,7 @@ ul.pager li {
 }
 /* line 116, ../sass/design/_islandora.scss */
 .block-islandora-solr ul li {
-  border-bottom: 1px solid #eef0ed;
+  border-bottom: 1px solid #EEF0ED;
   list-style: none outside none;
   padding: 3px 0;
 }
@@ -2508,15 +2555,15 @@ ul.pager li {
 /* line 166, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper .islandora-basic-collection-caption {
   color: #888;
-  font-size: 110%;
+  font-size: 95%;
   padding-top: 2px;
-  padding-left: 17px;
+  padding-left: 10px;
 }
 /* line 172, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper .islandora-basic-collection-display-switch {
   position: absolute;
   right: 30px;
-  top: 215px;
+  top: 55px;
 }
 /* line 178, ../sass/design/_islandora.scss */
 .islandora-basic-collection-wrapper p {
@@ -2605,7 +2652,7 @@ ul.pager li {
 
 /* line 256, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.even {
-  border: 1px solid #cccccc;
+  border: 1px solid #CCC;
 }
 
 /* line 260, ../sass/design/_islandora.scss */
@@ -2620,12 +2667,12 @@ ul.pager li {
   margin-right: 1em;
 }
 
-/* line 272, ../sass/design/_islandora.scss */
+/* line 273, ../sass/design/_islandora.scss */
 .dwn_btn {
   background: none repeat scroll 0 0 #777777;
   border: 0 none;
   border-radius: 10px 10px 10px 10px;
-  color: white !important;
+  color: #FFF !important;
   height: 45px;
   letter-spacing: 0.3pt;
   margin-left: 1em;
@@ -2635,7 +2682,7 @@ ul.pager li {
   top: 25px;
 }
 
-/* line 285, ../sass/design/_islandora.scss */
+/* line 286, ../sass/design/_islandora.scss */
 .dwn_btn:hover {
   color: #121738 !important;
 }
@@ -2646,35 +2693,36 @@ ul.pager li {
   position: absolute;
   left: 0;
   right: 0;
+  bottom: 0;
 }
-/* line 11, ../sass/design/_footer.scss */
+/* line 12, ../sass/design/_footer.scss */
 #footer #block-menu-menu-footer-menu ul {
   font-size: 90%;
 }
-/* line 13, ../sass/design/_footer.scss */
+/* line 14, ../sass/design/_footer.scss */
 #footer #block-menu-menu-footer-menu ul li {
   list-style: none;
   display: inline;
   margin: 0 10px;
 }
-/* line 20, ../sass/design/_footer.scss */
+/* line 21, ../sass/design/_footer.scss */
 #footer #block-block-4 {
-  border-top: 1px solid #999999;
+  border-top: 1px solid #999;
   font-size: 80%;
   color: #777;
   clear: left;
 }
-/* line 25, ../sass/design/_footer.scss */
+/* line 26, ../sass/design/_footer.scss */
 #footer #block-block-4 p {
   margin: 0;
 }
 
-/* line 31, ../sass/design/_footer.scss */
+/* line 32, ../sass/design/_footer.scss */
 #block-block-3 {
   float: left;
   margin: 0 2em 0 0;
 }
-/* line 34, ../sass/design/_footer.scss */
+/* line 35, ../sass/design/_footer.scss */
 #block-block-3 p {
   margin: 1em 0 0;
 }

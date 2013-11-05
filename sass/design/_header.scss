@@ -36,7 +36,13 @@
 		padding: 0px 0 0 5px;
 		font-weight: bold; }
 	 
-	#button-container { text-align: right; position: relative; top: -42px; }
+	#button-container { 
+		text-align: right;
+		position: relative;
+		top: -42px;
+		display: inline-block;
+		float: right;
+	}
  
 	#button-container>span {
 		width: 35px;
@@ -189,7 +195,7 @@
 }
 
 #name-and-slogan {
-	padding: 20px 15px 0 30px;
+	padding: 35px 15px 0 30px;
 	#site-slogan {
 		text-transform: uppercase;
 		letter-spacing: 0.5pt;
