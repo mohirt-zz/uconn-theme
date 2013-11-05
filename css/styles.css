@@ -919,45 +919,46 @@ table {
 
   /* line 231, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
-    font-size: 85%;
+    font-size: 80%;
+    width: 30%;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 238, ../sass/layouts/_responsive.scss */
+  /* line 239, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
     font-size: 85%;
   }
 }
 @media all and (max-width: 935px) {
-  /* line 246, ../sass/layouts/_responsive.scss */
+  /* line 247, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 20px !important;
     font-size: 90%;
     padding-top: 20px !important;
   }
 
-  /* line 251, ../sass/layouts/_responsive.scss */
+  /* line 252, ../sass/layouts/_responsive.scss */
   #site-name {
     font-size: 90% !important;
   }
 
-  /* line 254, ../sass/layouts/_responsive.scss */
+  /* line 255, ../sass/layouts/_responsive.scss */
   #block-islandora-solr-simple .form-submit {
     font-size: 90%;
   }
 
-  /* line 257, ../sass/layouts/_responsive.scss */
+  /* line 258, ../sass/layouts/_responsive.scss */
   #header {
     height: 100px !important;
   }
 
-  /* line 260, ../sass/layouts/_responsive.scss */
+  /* line 261, ../sass/layouts/_responsive.scss */
   .header__logo {
     margin-top: 1.2em !important;
   }
 
-  /* line 263, ../sass/layouts/_responsive.scss */
+  /* line 264, ../sass/layouts/_responsive.scss */
   #main {
     top: 7em !important;
   }
