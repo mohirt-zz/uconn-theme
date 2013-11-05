@@ -1237,14 +1237,14 @@ table {
 }
 
 /* line 275, ../sass/components/_misc.scss */
-.tabs-primary__tab, .tabs-primary__tab.is-active, .tabs-secondary__tab,
+.tabs-primary__tab, .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
   float: left;
   margin: 0 3px;
 }
 
 /* line 279, ../sass/components/_misc.scss */
-a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
+a.tabs-primary__tab-link, a.tabs-secondary__tab-link {
   border: 1px solid #e9e9e9;
   border-right: 0;
   border-bottom: 0;
@@ -1786,7 +1786,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1383678420');
+  background-image: url('../images/progress.gif?1383682152');
 }
 
 /**
@@ -2146,28 +2146,29 @@ tr.selected td {
 }
 /* line 206, ../sass/design/_header.scss */
 #name-and-slogan #site-name {
+  font-size: 115%;
   font-weight: normal;
 }
-/* line 208, ../sass/design/_header.scss */
+/* line 209, ../sass/design/_header.scss */
 #name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
   color: #14105E;
 }
 
-/* line 215, ../sass/design/_header.scss */
+/* line 216, ../sass/design/_header.scss */
 .header__logo {
   float: right;
   margin-top: 2.25em;
 }
 
-/* line 221, ../sass/design/_header.scss */
+/* line 222, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
   padding-left: 25px;
 }
-/* line 223, ../sass/design/_header.scss */
+/* line 224, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .adv_search {
   display: none;
 }
-/* line 226, ../sass/design/_header.scss */
+/* line 227, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-text {
   width: 13em;
   border: 1px solid #E0E0E0;
@@ -2177,7 +2178,7 @@ tr.selected td {
   color: #D7D7D7;
   line-height: 1.5em;
 }
-/* line 235, ../sass/design/_header.scss */
+/* line 236, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .form-submit {
   background: url("../images/search_btn_sml.png") no-repeat scroll left 2px transparent;
   width: 35px;
