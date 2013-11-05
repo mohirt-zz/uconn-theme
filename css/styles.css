@@ -2495,7 +2495,7 @@ a.dwn_btn:hover {
 #block-islandora-solr-display-switch {
   float: right;
   position: relative;
-  top: -58px;
+  top: -42px;
   left: -20px;
   opacity: 0.5;
 }
@@ -2585,116 +2585,101 @@ a.dwn_btn:hover {
   display: none;
 }
 
-/* line 186, ../sass/design/_islandora.scss */
+/* line 187, ../sass/design/_islandora.scss */
+.islandora-basic-collection-wrapper-metadata {
+  margin: 0.7em 0 0 0.5em;
+}
+
+/* line 191, ../sass/design/_islandora.scss */
 .islandora-basic-collection-grid {
   margin-top: 50px;
 }
 
-/* line 190, ../sass/design/_islandora.scss */
+/* line 195, ../sass/design/_islandora.scss */
 .islandora-basic-collection-list-item {
   float: left;
   text-align: right;
 }
-/* line 194, ../sass/design/_islandora.scss */
+/* line 199, ../sass/design/_islandora.scss */
 .islandora-basic-collection-list-item dl {
   margin: 0 1.5em;
 }
-/* line 197, ../sass/design/_islandora.scss */
+/* line 202, ../sass/design/_islandora.scss */
 .islandora-basic-collection-list-item dt {
   float: right !important;
   margin: 0;
   max-width: 85%;
 }
-/* line 202, ../sass/design/_islandora.scss */
+/* line 207, ../sass/design/_islandora.scss */
 .islandora-basic-collection-list-item dd {
   text-align: left;
   margin: 0 !important;
   max-width: 85%;
 }
-/* line 208, ../sass/design/_islandora.scss */
+/* line 213, ../sass/design/_islandora.scss */
 .islandora-basic-collection-list-item img {
   float: right;
 }
 
-/* line 215, ../sass/design/_islandora.scss */
+/* line 220, ../sass/design/_islandora.scss */
 .islandora-solr-search-result {
   border-radius: 18px;
 }
-/* line 218, ../sass/design/_islandora.scss */
+/* line 223, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-thumb {
   float: right;
 }
-/* line 220, ../sass/design/_islandora.scss */
+/* line 225, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-thumb img {
   border: 0;
   padding: 15px 15px 10px 10px;
 }
-/* line 226, ../sass/design/_islandora.scss */
+/* line 231, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields .solr-value {
   padding-bottom: 0;
   padding-left: 0;
 }
-/* line 230, ../sass/design/_islandora.scss */
+/* line 235, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields .dc-title {
   color: #888;
   font-size: 105%;
   padding-top: 10px;
 }
-/* line 235, ../sass/design/_islandora.scss */
+/* line 240, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields .fgs-ownerid-t {
   font-size: 75%;
   color: #777;
   padding-top: 0;
 }
-/* line 242, ../sass/design/_islandora.scss */
+/* line 247, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-label {
   display: none;
 }
-/* line 246, ../sass/design/_islandora.scss */
+/* line 251, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields, .islandora-solr-search-result .solr-fields dt, .islandora-solr-search-result .solr-fields dd {
   border: 0;
 }
 
-/* line 252, ../sass/design/_islandora.scss */
+/* line 257, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.odd {
   background: #CCC;
 }
 
-/* line 256, ../sass/design/_islandora.scss */
+/* line 261, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.even {
   border: 1px solid #CCC;
 }
 
-/* line 260, ../sass/design/_islandora.scss */
+/* line 265, ../sass/design/_islandora.scss */
 #islandora-solr-result-count {
   font-size: 115%;
 }
 
-/* line 266, ../sass/design/_islandora.scss */
+/* line 273, ../sass/design/_islandora.scss */
 #block-accordion-rotator-accordion-rotator {
   float: right;
   width: 55%;
   margin-right: 1em;
-}
-
-/* line 273, ../sass/design/_islandora.scss */
-.dwn_btn {
-  background: none repeat scroll 0 0 #777777;
-  border: 0 none;
-  border-radius: 10px 10px 10px 10px;
-  color: #FFF !important;
-  height: 45px;
-  letter-spacing: 0.3pt;
-  margin-left: 1em;
-  text-transform: capitalize;
-  padding: 10px;
-  position: relative;
-  top: 25px;
-}
-
-/* line 286, ../sass/design/_islandora.scss */
-.dwn_btn:hover {
-  color: #121738 !important;
 }
 
 /* line 5, ../sass/design/_footer.scss */
