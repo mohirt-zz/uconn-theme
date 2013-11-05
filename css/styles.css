@@ -921,6 +921,18 @@ table {
   /* line 235, ../sass/layouts/_responsive.scss */
   #name-and-slogan {
     padding-left: 10px !important;
+    font-size: 85%;
+  }
+}
+@media all and (max-width: 935px) {
+  /* line 244, ../sass/layouts/_responsive.scss */
+  #name-and-slogan {
+    padding-left: 20px !important;
+    font-size: 90%;
+  }
+
+  /* line 249, ../sass/layouts/_responsive.scss */
+  #block-islandora-solr-simple .form-submit {
     font-size: 90%;
   }
 }
@@ -1747,7 +1759,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1383232997');
+  background-image: url('../images/progress.gif?1383661969');
 }
 
 /**
