@@ -950,15 +950,20 @@ table {
 
   /* line 258, ../sass/layouts/_responsive.scss */
   #header {
-    height: 100px !important;
+    height: 95px !important;
   }
 
   /* line 261, ../sass/layouts/_responsive.scss */
+  .not-front #header {
+    height: 130px !important;
+  }
+
+  /* line 264, ../sass/layouts/_responsive.scss */
   .header__logo {
     margin-top: 1.2em !important;
   }
 
-  /* line 264, ../sass/layouts/_responsive.scss */
+  /* line 267, ../sass/layouts/_responsive.scss */
   #main {
     top: 7em !important;
   }
@@ -2162,7 +2167,7 @@ tr.selected td {
 
 /* line 222, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form {
-  padding-left: 25px;
+  padding-left: 18px;
 }
 /* line 224, ../sass/design/_header.scss */
 .header__region #islandora-solr-simple-search-form .adv_search {
@@ -2288,64 +2293,71 @@ ul.pager li {
   z-index: 50;
 }
 
-/* line 61, ../sass/design/_page.scss */
+/* line 60, ../sass/design/_page.scss */
+#book-viewer {
+  position: relative;
+  z-index: 500;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 65, ../sass/design/_page.scss */
 #book-viewer #BRtoolbar {
   background: #EEE;
 }
-/* line 64, ../sass/design/_page.scss */
+/* line 68, ../sass/design/_page.scss */
 #book-viewer #BRpageview, #book-viewer #BRcontainer {
   background: #CCC;
 }
-/* line 67, ../sass/design/_page.scss */
+/* line 71, ../sass/design/_page.scss */
 #book-viewer #BRnav {
   background: #EEE;
 }
 
-/* line 72, ../sass/design/_page.scss */
+/* line 76, ../sass/design/_page.scss */
 #colorbox, #cboxOverlay, #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
 
-/* line 77, ../sass/design/_page.scss */
+/* line 81, ../sass/design/_page.scss */
 #cboxWrapper {
   max-width: 100%;
   height: 100% !important;
 }
-/* line 80, ../sass/design/_page.scss */
+/* line 84, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent {
   max-width: 95%;
   border-color: #000E2F;
   padding: 0.5em;
 }
-/* line 81, ../sass/design/_page.scss */
+/* line 85, ../sass/design/_page.scss */
 #cboxWrapper #cboxContent #cboxLoadedContent {
   max-width: 100%;
 }
-/* line 89, ../sass/design/_page.scss */
+/* line 93, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatHead {
   background: #000E2F;
   padding: 20px 10px;
 }
-/* line 93, ../sass/design/_page.scss */
+/* line 97, ../sass/design/_page.scss */
 #cboxWrapper .BRfloat {
   min-width: 385px;
 }
-/* line 96, ../sass/design/_page.scss */
+/* line 100, ../sass/design/_page.scss */
 #cboxWrapper .floatShut {
   margin: 18px 10px;
 }
-/* line 99, ../sass/design/_page.scss */
+/* line 103, ../sass/design/_page.scss */
 #cboxWrapper .BRfloatMeta {
   height: auto !important;
   height: auto !important;
 }
-/* line 103, ../sass/design/_page.scss */
+/* line 107, ../sass/design/_page.scss */
 #cboxWrapper table {
   margin: 0.5em;
 }
 
-/* line 108, ../sass/design/_page.scss */
+/* line 112, ../sass/design/_page.scss */
 a.dwn_btn {
   background-color: #DEDEDE;
   border: 1px solid #BBB;
@@ -2360,39 +2372,39 @@ a.dwn_btn {
   width: 7em;
 }
 
-/* line 121, ../sass/design/_page.scss */
+/* line 125, ../sass/design/_page.scss */
 a.dwn_btn:hover {
   background-color: #E9E9E9;
   border: 1px solid #F2F2F2;
   color: #121738;
 }
 
-/* line 127, ../sass/design/_page.scss */
+/* line 131, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node {
   /*border: 1px solid #E0E0E0;
   border-radius: 8px 8px 8px 8px;
   height: 1.5em;*/
   padding: 20px 10px 30px;
 }
-/* line 132, ../sass/design/_page.scss */
+/* line 136, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2 {
   float: left;
   font-size: 80%;
   font-weight: normal;
 }
-/* line 137, ../sass/design/_page.scss */
+/* line 141, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node h2:after {
   content: ":";
 }
-/* line 140, ../sass/design/_page.scss */
+/* line 144, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node .service-links {
   float: left;
 }
-/* line 143, ../sass/design/_page.scss */
+/* line 147, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node ul {
   margin: 0;
 }
-/* line 146, ../sass/design/_page.scss */
+/* line 150, ../sass/design/_page.scss */
 #block-service-links-service-links-not-node li {
   display: inline;
   padding-right: 10px;

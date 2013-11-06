@@ -256,7 +256,10 @@ $zen-auto-include-item-base: false;
     font-size: 90%;
   }
   #header {
-    height: 100px !important;
+    height: 95px !important;
+  }
+  .not-front #header {
+  height: 130px !important;
   }
   .header__logo {
     margin-top: 1.2em !important;

@@ -58,6 +58,10 @@ ul.pager {
 // IA BOOK VIEWER //
 
 #book-viewer {
+	position: relative;
+	z-index: 500;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	#BRtoolbar {
 		background: #EEE;
 	}
