@@ -237,19 +237,19 @@
 			padding-left: 0;
 		}
 		.dc-title {
-			color: #888;
+			color: #777;
 			font-size: 105%;
 			padding-top: 10px;
+			font-weight: normal;
+			letter-spacing: 0.5pt;
 		}
 		.fgs-ownerid-t {
 			font-size: 75%;
 			color: #777;
 			padding-top: 0;
+			font-weight: normal;
+			letter-spacing: 0.5pt;
 		}
-	}
-
-	.solr-label {
-		display: none;
 	}
 
 	.solr-fields, .solr-fields dt, .solr-fields dd {

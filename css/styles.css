@@ -2658,19 +2658,19 @@ a.dwn_btn:hover {
 }
 /* line 239, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields .dc-title {
-  color: #888;
+  color: #777;
   font-size: 105%;
   padding-top: 10px;
+  font-weight: normal;
+  letter-spacing: 0.5pt;
 }
-/* line 244, ../sass/design/_islandora.scss */
+/* line 246, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields .fgs-ownerid-t {
   font-size: 75%;
   color: #777;
   padding-top: 0;
-}
-/* line 251, ../sass/design/_islandora.scss */
-.islandora-solr-search-result .solr-label {
-  display: none;
+  font-weight: normal;
+  letter-spacing: 0.5pt;
 }
 /* line 255, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields, .islandora-solr-search-result .solr-fields dt, .islandora-solr-search-result .solr-fields dd {
