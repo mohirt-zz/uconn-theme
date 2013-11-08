@@ -236,18 +236,19 @@
 			padding-bottom: 0;
 			padding-left: 0;
 		}
-		.solr-label {
+		.rels-ext-ispagenumber-literal-ms {
+			font-size: 105%;
+			padding-top: 10px;
 			color: #777;
 			font-weight: normal;
 			letter-spacing: 0.5pt;			
 		}
-		.solr-label.rels-ext-ispagenumber-literal-ms {
-			font-size: 105%;
-			padding-top: 10px;
-		}
-		.solr-label.text-nodes-hocr-hlt {
+		.text-nodes-hocr-hlt {
 			font-size: 75%;
 			padding-top: 0;
+			color: #777;
+			font-weight: normal;
+			letter-spacing: 0.5pt;			
 		}
 	}
 
