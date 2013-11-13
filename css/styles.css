@@ -2657,47 +2657,59 @@ a.dwn_btn:hover {
   padding-left: 0;
 }
 /* line 239, ../sass/design/_islandora.scss */
-.islandora-solr-search-result .solr-fields .dc-title .rels-ext-ispagenumber-literal-ms {
+.islandora-solr-search-result .solr-fields .rels-ext-ispagenumber-literal-ms {
   font-size: 105%;
   padding-top: 10px;
-}
-/* line 243, ../sass/design/_islandora.scss */
-.islandora-solr-search-result .solr-fields .fgs-ownerid-t .text-nodes-hocr-hlt {
-  font-size: 75%;
-  padding-top: 0;
-}
-/* line 247, ../sass/design/_islandora.scss */
-.islandora-solr-search-result .solr-fields .solr-label {
   color: #777;
   font-weight: normal;
   letter-spacing: 0.5pt;
 }
-/* line 254, ../sass/design/_islandora.scss */
+/* line 246, ../sass/design/_islandora.scss */
+.islandora-solr-search-result .solr-fields .text-nodes-hocr-hlt {
+  font-size: 75%;
+  padding-top: 0;
+  color: #777;
+  font-weight: normal;
+  letter-spacing: 0.5pt;
+}
+/* line 255, ../sass/design/_islandora.scss */
 .islandora-solr-search-result .solr-fields, .islandora-solr-search-result .solr-fields dt, .islandora-solr-search-result .solr-fields dd {
   border: 0;
 }
 
-/* line 260, ../sass/design/_islandora.scss */
+/* line 261, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.odd {
   background: #CCC;
 }
 
-/* line 264, ../sass/design/_islandora.scss */
+/* line 265, ../sass/design/_islandora.scss */
 .islandora-solr-search-result.even {
   border: 1px solid #CCC;
 }
 
-/* line 268, ../sass/design/_islandora.scss */
+/* line 269, ../sass/design/_islandora.scss */
 #islandora-solr-result-count {
   font-size: 95%;
   margin: 10px;
 }
 
-/* line 277, ../sass/design/_islandora.scss */
+/* line 278, ../sass/design/_islandora.scss */
 #block-accordion-rotator-accordion-rotator {
   float: right;
   width: 55%;
   margin-right: 1em;
+}
+
+/* line 284, ../sass/design/_islandora.scss */
+.acc_title {
+  font-size: 90%;
+  padding-left: 5px;
+}
+
+/* line 288, ../sass/design/_islandora.scss */
+.acc_text {
+  padding-left: 5px !important;
+  font-size: 90% !important;
 }
 
 /* line 5, ../sass/design/_footer.scss */
